@@ -14,7 +14,7 @@ image2 = Image.open('Picture2.png')
 image2_blank = Image.open('Picture2_blank.png')
 image3 = Image.open('Picture3.png')
 image3_blank = Image.open('Picture3_blank.png')
-image4 = Image.open('Picture4.png)
+image4 = Image.open('Picture4.png')
 image4_blank = Image.open('Picture4_blank.png')
 
 ans1 = st.text_input('Nhập đáp án của hàng 1')
