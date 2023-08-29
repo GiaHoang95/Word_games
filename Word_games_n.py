@@ -134,10 +134,10 @@ def ex(ans, x):
         with col10:
             header0('')
 
-ans1 = st.text_input('Nhập đáp án của hàng 1')
-ans2 = st.text_input('Nhập đáp án của hàng 2')    
-ans3 = st.text_input('Nhập đáp án của hàng 3')    
-ans4 = st.text_input('Nhập đáp án của hàng 4')
+ans1 = st.text_input('Xin chào trong tiếng anh là gì? (hello)')
+ans2 = st.text_input('Chúc mừng trong tiếng anh là gì? (congrats)')    
+ans3 = st.text_input('Kỳ diệu trong tiếng anh là gì? (fantastics)')    
+ans4 = st.text_input('May mắn trong tiếng anh là gì? (lucky)')
 
 if len(ans1) < 5:
     ex('     ', 1)
