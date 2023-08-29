@@ -8,14 +8,14 @@ co_ans2 = 'CONGRATS'
 co_ans3 = 'FANTASTICS'
 co_ans4 = 'LUCKY'
 
-image1 = Image.open('/Users/hdg1995/Desktop/Folder/Picture1.png')
-image1_blank = Image.open('./Word_games/Picture1_blank.png')
-image2 = Image.open('./Word_games/Picture2.png')
-image2_blank = Image.open('./Word_games/Picture2_blank.png')
-image3 = Image.open('./Word_games/Picture3.png')
-image3_blank = Image.open('./Word_games/Picture3_blank.png')
-image4 = Image.open('./Word_games/Picture4.png')
-image4_blank = Image.open('./Word_games/Picture4_blank.png')
+image1 = Image.open('https://github.com/GiaHoang95/Word_games/blob/main/Picture1.png')
+image1_blank = Image.open('https://github.com/GiaHoang95/Word_games/blob/main/Picture1.png')
+image2 = Image.open('https://github.com/GiaHoang95/Word_games/blob/main/Picture1.png')
+image2_blank = Image.open('https://github.com/GiaHoang95/Word_games/blob/main/Picture1.png')
+image3 = Image.open('https://github.com/GiaHoang95/Word_games/blob/main/Picture1.png')
+image3_blank = Image.open('https://github.com/GiaHoang95/Word_games/blob/main/Picture1.png')
+image4 = Image.open('https://github.com/GiaHoang95/Word_games/blob/main/Picture1.png)
+image4_blank = Image.open('https://github.com/GiaHoang95/Word_games/blob/main/Picture1.png')
 
 ans1 = st.text_input('Nhập đáp án của hàng 1')
 ans2 = st.text_input('Nhập đáp án của hàng 2')    
