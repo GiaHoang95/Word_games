@@ -8,14 +8,14 @@ co_ans2 = 'CONGRATS'
 co_ans3 = 'FANTASTICS'
 co_ans4 = 'LUCKY'
 
-image1 = Image.open('giahoang95/word_games/Picture1.png')
-image1_blank = Image.open('giahoang95/word_games/Picture1_blank.png')
-image2 = Image.open('/giahoang95/word_games/Picture2.png')
-image2_blank = Image.open('/giahoang95/word_games/Picture2_blank.png')
-image3 = Image.open('giahoang95/word_games/Picture3.png')
-image3_blank = Image.open('giahoang95/word_games/Picture3_blank.png')
-image4 = Image.open('giahoang95/word_games/Picture4.png')
-image4_blank = Image.open('giahoang95/word_games/Picture4_blank.png')
+image1 = Image.open('word_games/Picture1.png')
+image1_blank = Image.open('word_games/Picture1_blank.png')
+image2 = Image.open('word_games/Picture2.png')
+image2_blank = Image.open('word_games/Picture2_blank.png')
+image3 = Image.open('word_games/Picture3.png')
+image3_blank = Image.open('word_games/Picture3_blank.png')
+image4 = Image.open('word_games/Picture4.png')
+image4_blank = Image.open('word_games/Picture4_blank.png')
 
 ans1 = st.text_input('Nhập đáp án của hàng 1')
 ans2 = st.text_input('Nhập đáp án của hàng 2')    
