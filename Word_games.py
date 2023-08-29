@@ -25,7 +25,7 @@ else:
     with col1:
         st.write("")
     with col2:
-        st.image("/Users/hdg1995/Desktop/Picture1_blank.png")
+        st.image("https://github.com/GiaHoang95/Word_games/blob/main/Picture1_blank.png")
     with col3:
         st.write("")
 if ans2.upper() == co_ans2:
