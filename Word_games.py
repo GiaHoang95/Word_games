@@ -8,7 +8,7 @@ co_ans2 = 'CONGRATS'
 co_ans3 = 'FANTASTICS'
 co_ans4 = 'LUCKY'
 
-image1 = Image.open('./Word_games/Picture1.png')
+image1 = Image.open('Word_games/blob/main/Picture1.png')
 image1_blank = Image.open('./Word_games/Picture1_blank.png')
 image2 = Image.open('./Word_games/Picture2.png')
 image2_blank = Image.open('./Word_games/Picture2_blank.png')
