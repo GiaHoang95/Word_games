@@ -17,10 +17,10 @@ image3_blank = Image.open('Picture3_blank.png')
 image4 = Image.open('Picture4.png')
 image4_blank = Image.open('Picture4_blank.png')
 
-ans1 = st.text_input('Nhập đáp án của hàng 1')
-ans2 = st.text_input('Nhập đáp án của hàng 2')    
-ans3 = st.text_input('Nhập đáp án của hàng 3')    
-ans4 = st.text_input('Nhập đáp án của hàng 4')
+ans1 = st.text_input('Xin chào trong tiếng anh là gì? (hello)')
+ans2 = st.text_input('Chúc mừng trong tiếng anh là gì? (congrats)')    
+ans3 = st.text_input('Kỳ diệu trong tiếng anh là gì? (fantastics)')    
+ans4 = st.text_input('May mắn trong tiếng anh là gì? (lucky)')
 
 if ans1.upper() == co_ans1:
     col1, col2, col3 = st.columns([1,6,1])
