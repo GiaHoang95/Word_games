@@ -9,19 +9,16 @@ div[class*="stTextInput"] label p {
   margin-boder: 0px;
 }
 
-</style>
-"""
-
-st.write(tabs_font_css, unsafe_allow_html=True)
-
-st.write('''<style>
-
 [data-testid="column"] {
     width: calc(10% - 1rem) !important;
     flex: 1 1 calc(10% - 1rem) !important;
     min-width: calc(10% - 1rem) !important;
 }
-</style>''', unsafe_allow_html=True)
+
+</style>
+"""
+
+st.write(tabs_font_css, unsafe_allow_html=True)
 
 def header_space(url):
     st.markdown(f'<div style="width:20px;height:0px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0.5px solid #ffffff;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
