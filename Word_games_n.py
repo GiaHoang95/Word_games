@@ -14,8 +14,11 @@ div[class*="stTextInput"] label p {
 
 st.write(tabs_font_css, unsafe_allow_html=True)
 
+def header_space(url):
+     st.markdown(f'<div style="width:20px;height:5px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0.5px solid #ff0000;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+
 def header(url):
-     st.markdown(f'<div style="width:20px;height:10px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0.5px solid #ff0000;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+     st.markdown(f'<div style="width:20px;height:20px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0.5px solid #ff0000;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def header0(url):
      st.markdown(f'<div style="width:20px;height:20px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0.5px solid #ffffff;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
@@ -28,25 +31,25 @@ def ex(ans, x):
 
     if x == 0:
         with col1:
-            header0('')
+            header_space('')
         with col2:
-            header0('')
+            header_space('')
         with col3:
-            header0('')
+            header_space('')
         with col4:
-            header0('')
+            header_space('')
         with col5:
-            header0('')
+            header_space('')
         with col6:
-            header0('')
+            header_space('')
         with col7:
-            header0('')
+            headheader_spaceer0('')
         with col8:
-            header0('')
+            header_space('')
         with col9:
-            header0('')
+            header_space('')
         with col10:
-            header0('')
+            header_space('')
 
     if x == 1:
         with col1:
