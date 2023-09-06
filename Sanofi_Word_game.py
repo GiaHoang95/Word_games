@@ -57,20 +57,6 @@ div[class*="css-5rimss e1nzilvr5"] {
 }
 
 [data-testid="stVerticalBlock"] {
-    font-size: 16px;
-    font-family: Helvetica, sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
-    text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-font-smoothing: auto;
-    color: rgb(49, 51, 63);
-    box-sizing: border-box;
-    width: 603px;
-    position: relative;
-    display: flex;
-    flex: 1 1 0%;
-    flex-direction: column;
     gap: 5px;
 }
 </style>
