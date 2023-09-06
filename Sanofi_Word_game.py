@@ -39,6 +39,22 @@ div[class*="stTextInput"] label p {
     padding-right: 1rem;
     position: relative;
 }
+
+[data-testid="stMarkdownContainer"] {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: auto;
+    color: rgb(49, 51, 63);
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: -1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
   
 </style>
 """
