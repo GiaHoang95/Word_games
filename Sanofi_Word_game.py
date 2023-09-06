@@ -18,10 +18,7 @@ div[class*="stTextInput"] label p {
 }
 
 [class="css-fg4pbf] {
-    background-color: #e5e5f7;
-    opacity: 0.8;
-    background-image: linear-gradient(0deg, #e5e5f7 50%, #444cf7 50%);
-    background-size: 10px 10px;
+    background: #e5e5f7;
 }
 
 </style>
