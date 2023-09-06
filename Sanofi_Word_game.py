@@ -40,7 +40,7 @@ def headerkm(url):
      st.markdown(f'<div style="width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#008000;color:#33ff33;border:0.5px solid #ff0000;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
 def head(url):
-    st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:#7A01E6;font-weight:bold;border: solid #ffffff;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:#7A01E6;font-weight:bold;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def ex(ans, x):
     col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns(10, gap="small")
