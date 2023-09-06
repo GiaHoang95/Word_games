@@ -14,10 +14,11 @@ div[class*="stTextInput"] label p {
 }
 
 [data-testid="stAppViewContainer"] {
-  background-color: #e5e5f7;
-  opacity: 0.8;
-  background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
-  background-size: 10px 10px;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
 }
 
 [data-testid="block-container"] {
@@ -47,13 +48,13 @@ def header_space(url):
     st.markdown(f'<div style="opacity:0;width:35px;height:0px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0px solid #ffffff;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
 def header(url):
-     st.markdown(f'<div style="width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0.5px solid #ff0000;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+     st.markdown(f'<div style="width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#444CF7;color:#33ff33;border:0.5px solid #444CF7;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def header0(url):
      st.markdown(f'<div style="opacity:0;width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0px solid #ffffff;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def headerkm(url):
-     st.markdown(f'<div style="width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#008000;color:#33ff33;border:0.5px solid #ff0000;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+     st.markdown(f'<div style="width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#0F19D5;color:#33ff33;border:0.5px solid #0F19D5;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
 def head(url):
     st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:#7A01E6;font-weight:bold;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
