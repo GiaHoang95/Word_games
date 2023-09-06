@@ -48,7 +48,7 @@ def header_space(url):
     st.markdown(f'<div style="opacity:0;width:35px;height:0px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0px solid #ffffff;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
 def header(url):
-     st.markdown(f'<div style="width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#444CF7;color:#33ff33;border:0.5px solid #444CF7;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+     st.markdown(f'<div style="width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#8A8FE8;color:#33ff33;border:0.5px solid #8A8FE8;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def header0(url):
      st.markdown(f'<div style="opacity:0;width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0px solid #ffffff;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
