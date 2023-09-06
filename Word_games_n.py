@@ -9,6 +9,12 @@ div[class*="stTextInput"] label p {
   margin-boder: 0px;
 }
 
+div[class*="stcolumn"] label p {
+    width: calc(10% - 1rem) !important;
+    flex: 1 1 calc(10% - 1rem) !important;
+    min-width: calc(10% - 1rem) !important;
+}
+
 </style>
 """
 
