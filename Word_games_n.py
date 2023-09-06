@@ -145,16 +145,19 @@ def ex(ans, x):
         with col10:
             header0('')
 
+head1, head2, head3 = st.columns([1, 8, 1])
+with head2:
+    st.write('Essential Medicine')
 col1, col2 = st.columns([1, 1])
 col3, col4 = st.columns([1, 1])
 with col1:
-    ans1 = st.text_input('Xin chào trong tiếng anh là gì? (hello)')
+    ans1 = st.text_input('Xin chào trong tiếng anh là gì?')
 with col2:
-    ans2 = st.text_input('Chúc mừng trong tiếng anh là gì? (congrats)')
+    ans2 = st.text_input('Chúc mừng trong tiếng anh là gì?')
 with col3: 
-    ans3 = st.text_input('Kỳ diệu trong tiếng anh là gì? (fantastics)')    
+    ans3 = st.text_input('Kỳ diệu trong tiếng anh là gì?')    
 with col4:
-    ans4 = st.text_input('May mắn trong tiếng anh là gì? (lucky)')
+    ans4 = st.text_input('May mắn trong tiếng anh là gì?')
 
 if len(ans1) < 5:
     ex('     ', 1)
