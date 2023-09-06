@@ -17,14 +17,7 @@ div[class*="stTextInput"] label p {
     min-width: calc(10% - 1rem) !important;
 }
 
-</style>
-"""
-st.write(tabs_font_css, unsafe_allow_html=True)
-
-page_bg_img =  """
-<style>
-
-[data-testid="stAppViewContainer"] {
+[class="css-fg4pbf] {
     background-color: #e5e5f7;
     opacity: 0.8;
     background-image: linear-gradient(0deg, #e5e5f7 50%, #444cf7 50%);
@@ -33,8 +26,7 @@ page_bg_img =  """
 
 </style>
 """
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
+st.write(tabs_font_css, unsafe_allow_html=True)
 
 def header_space(url):
     st.markdown(f'<div style="width:35px;height:0px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0.5px solid #ffffff;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
