@@ -15,13 +15,13 @@ div[class*="stTextInput"] label p {
 st.write(tabs_font_css, unsafe_allow_html=True)
 
 def header(url):
-     st.markdown(f'<div style="width:30px;height:30px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:solid #ff0000;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+     st.markdown(f'<div style="width:20px;height:20px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:solid #ff0000;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def header0(url):
-     st.markdown(f'<div style="width:30px;height:30px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:solid #ffffff;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+     st.markdown(f'<div style="width:20px;height:20px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:solid #ffffff;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def headerkm(url):
-     st.markdown(f'<div style="width:30px;height:30px;display:flex;justify-content:center;align-items:center;background-color:#008000;color:#33ff33;border:solid #ff0000;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+     st.markdown(f'<div style="width:20px;height:20px;display:flex;justify-content:center;align-items:center;background-color:#008000;color:#33ff33;border:solid #ff0000;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def ex(ans, x):
     col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns(10, gap="small")
