@@ -9,9 +9,9 @@ div[class*="stTextInput"] label p {
 }
 
 [data-testid="column"] {
-    width: calc(10% - 1rem) !important;
-    flex: 1 1 calc(10% - 1rem) !important;
-    min-width: calc(10% - 1rem) !important;
+    width: calc(10%) !important;
+    flex: 1 1 calc(10%) !important;
+    min-width: calc(10%) !important;
 }
 
 [data-testid="stAppViewContainer"] {
