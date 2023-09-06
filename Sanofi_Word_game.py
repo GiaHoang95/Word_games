@@ -16,10 +16,10 @@ div[class*="stTextInput"] label p {
 }
 
 [data-testid="stAppViewContainer"] {
-    background-color: #e5e5f7;
-    opacity: 0.8;
-    background-image:  linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #e5e5f7 1px);
-    background-size: 20px 20px;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  background-size: 10px 10px;
 }
 
 </style>
