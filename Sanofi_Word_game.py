@@ -71,7 +71,7 @@ div[class*="css-5rimss e1nzilvr5"] {
     display: flex;
     flex: 1 1 0%;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 </style>
 """
