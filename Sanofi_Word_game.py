@@ -15,6 +15,10 @@ div[class*="stTextInput"] label p {
     min-width: calc(10% - 1rem) !important;
 }
 
+[data-testid="textInputRootElement"] {
+    padding:0px;
+}
+
 [data-testid="stAppViewContainer"] {
   background-color: #e5e5f7;
   opacity: 0.8;
