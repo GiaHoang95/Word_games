@@ -16,7 +16,8 @@ div[class*="stTextInput"] label p {
 }
 
 [data-testid="textInputRootElement"] {
-    padding:0px;
+    padding: 0px;
+    line-height: 280px;
 }
 
 [data-testid="stAppViewContainer"] {
