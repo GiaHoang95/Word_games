@@ -17,7 +17,7 @@ div[class*="stTextInput"] label p {
     min-width: calc(10% - 1rem) !important;
 }
 
-div[class*="stApp css-fg4pbf] {
+div[class*="stApp stAppEmbeddingID-s0kgnzez595f css-fg4pbf erw9t6i1] {
     background: #e5e5f7;
 }
 
