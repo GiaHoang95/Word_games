@@ -40,7 +40,7 @@ div[class*="stTextInput"] label p {
     position: relative;
 }
 
-[data-testid="stMarkdownContainer"] {
+[data-testid="stMarkdownContainer" class="css-5rimss e1nzilvr5"] {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
