@@ -17,7 +17,7 @@ div[class*="stTextInput"] label p {
     min-width: calc(10% - 1rem) !important;
 }
 
-div[class*="css-fg4pbf] {
+div[class*="stApp css-fg4pbf] {
     background: #e5e5f7;
 }
 
