@@ -5,6 +5,7 @@ tabs_font_css = """
 
 div[class*="stTextInput"] label p {
   font-size: 1rem;
+  color: black;
 }
 
 [data-testid="column"] {
