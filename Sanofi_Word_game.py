@@ -31,7 +31,7 @@ div[class*="stTextInput"] label p {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-font-smoothing: auto;
     color: rgb(49, 51, 63);
-    box-sizing: border-box;
+    box-sizing: padding-box;
     width: 100%;
     padding: 3rem 1rem 10rem;
     max-width: 46rem;
