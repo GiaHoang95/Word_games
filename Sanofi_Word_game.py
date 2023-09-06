@@ -1,5 +1,7 @@
 import streamlit as st
 
+backgroundColor="#FF0000"
+
 tabs_font_css = """
 <style>
 
