@@ -16,7 +16,29 @@ div[class*="stTextInput"] label p {
     flex: 1 1 calc(10% - 1rem) !important;
     min-width: calc(10% - 1rem) !important;
 }
-
+[data-testid="stAppViewContainer"] {
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 1.6;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: auto;
+    color: rgb(49, 51, 63);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    place-content: flex-start;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    position: absolute;
+    inset: 0px;
+    overflow: hidden;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: linear-gradient(0deg, #e5e5f7 50%, #444cf7 50%);
+    background-size: 10px 10px;
+}
 </style>
 """
 
