@@ -21,6 +21,24 @@ div[class*="stTextInput"] label p {
   background-size: 10px 10px;
 }
 
+[data-testid="block-container"] {
+    font-size: 16px;
+    font-family: Calibri, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: auto;
+    color: rgb(49, 51, 63);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3rem 1rem 10rem;
+    max-width: 46rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+}
+  
 </style>
 """
 
