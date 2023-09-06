@@ -15,22 +15,26 @@ div[class*="stTextInput"] label p {
     min-width: calc(10% - 1rem) !important;
 }
 
-div[class*="stApp stAppEmbeddingID-s0kgnzez595f css-fg4pbf erw9t6i1] {
-    background: #e5e5f7;
+[data-testid="stAppViewContainer"] {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #e5e5f7 1px);
+    background-size: 20px 20px;
 }
 
 </style>
 """
+
 st.write(tabs_font_css, unsafe_allow_html=True)
 
 def header_space(url):
-    st.markdown(f'<div style="width:35px;height:0px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0.5px solid #ffffff;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="opacity:0;width:35px;height:0px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0px solid #ffffff;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
 def header(url):
      st.markdown(f'<div style="width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0.5px solid #ff0000;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def header0(url):
-     st.markdown(f'<div style="width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0.5px solid #ffffff;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+     st.markdown(f'<div style="opacity:0;width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0px solid #ffffff;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def headerkm(url):
      st.markdown(f'<div style="width:35px;height:35px;display:flex;justify-content:center;align-items:center;background-color:#008000;color:#33ff33;border:0.5px solid #ff0000;font-size:26px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
@@ -190,4 +194,3 @@ if len(ans4) < 5:
     ex('     ', 4)
 else:
     ex(ans4, 4)
-
