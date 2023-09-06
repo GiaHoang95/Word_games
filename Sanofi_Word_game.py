@@ -16,6 +16,7 @@ div[class*="stTextInput"] label p {
     flex: 1 1 calc(10% - 1rem) !important;
     min-width: calc(10% - 1rem) !important;
 }
+
 [data-testid="stAppViewContainer"] {
     font-family: Helvetica;
     font-weight: 400;
@@ -39,6 +40,7 @@ div[class*="stTextInput"] label p {
     background-image: linear-gradient(0deg, #e5e5f7 50%, #444cf7 50%);
     background-size: 10px 10px;
 }
+
 </style>
 """
 
