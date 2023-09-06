@@ -56,7 +56,7 @@ div[class*="css-5rimss e1nzilvr5"] {
     justify-content: center;
 }
 
-[data-testid="stVertical-Block"] {
+[data-testid="stVerticalBlock"] {
     font-size: 16px;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
