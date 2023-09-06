@@ -54,7 +54,6 @@ div[class*="css-5rimss e1nzilvr5"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 15.5px;
 }
   
 </style>
