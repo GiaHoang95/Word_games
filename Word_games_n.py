@@ -10,9 +10,8 @@ div[class*="stTextInput"] label p {
 }
 
 div[class*="stcolumn"] label p {
-    width: calc(10% - 1rem) !important;
-    flex: 1 1 calc(10% - 1rem) !important;
-    min-width: calc(10% - 1rem) !important;
+    width: 8% !important;
+    min-width: 8% !important;
 }
 
 </style>
