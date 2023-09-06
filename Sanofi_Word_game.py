@@ -22,7 +22,7 @@ div[class*="stTextInput"] label p {
 
 [data-testid="block-container"] {
     font-size: 16px;
-    font-family: Calibri, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.6;
     text-size-adjust: 100%;
