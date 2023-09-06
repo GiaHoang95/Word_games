@@ -147,7 +147,7 @@ def ex(ans, x):
 
 head1, head2, head3 = st.columns([1, 8, 1])
 with head2:
-    st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border: solid #ffffff;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border: solid #ffffff;font-size:40px;border-radius:0%;">'Essential Medicines'</div>', unsafe_allow_html=True)
 col1, col2 = st.columns([1, 1])
 col3, col4 = st.columns([1, 1])
 with col1:
