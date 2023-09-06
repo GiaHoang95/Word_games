@@ -4,20 +4,13 @@ tabs_font_css = """
 <style>
 
 div[class*="stTextInput"] label p {
-  font-size: 10px;
-  padding: 10px
-  margin-boder: 0px;
+  font-size: 26px;
 }
 
 [data-testid="column"] {
     width: calc(10% - 1rem) !important;
     flex: 1 1 calc(10% - 1rem) !important;
     min-width: calc(10% - 1rem) !important;
-}
-
-[data-testid="textInputRootElement"] {
-    padding: 0px;
-    line-height: 10px;
 }
 
 [data-testid="stAppViewContainer"] {
