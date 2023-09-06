@@ -31,7 +31,7 @@ div[class*="stTextInput"] label p {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-font-smoothing: auto;
     color: rgb(49, 51, 63);
-    box-sizing: padding-box;
+    box-sizing: border-box;
     width: 100%;
     padding: 3rem 1rem 10rem;
     max-width: 46rem;
@@ -54,7 +54,7 @@ div[class*="css-5rimss e1nzilvr5"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 15.5px
+    padding: 0px 15.5px;
 }
   
 </style>
