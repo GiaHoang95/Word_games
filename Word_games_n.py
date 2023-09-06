@@ -24,7 +24,7 @@ def headerkm(url):
      st.markdown(f'<div style="width:40%;height:30px;display:flex;justify-content:center;align-items:center;background-color:#008000;color:#33ff33;border:solid #ff0000;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def ex(ans, x):
-    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns(10, gap="small")
+    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns([0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5], gap="small")
 
     if x == 0:
         with col1:
