@@ -32,7 +32,7 @@ def header0(url):
 def headerkm(url):
      st.markdown(f'<div style="width:20px;height:20px;display:flex;justify-content:center;align-items:center;background-color:#008000;color:#33ff33;border:0.5px solid #ff0000;font-size:100%;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
-def head(url)
+def head(url):
     st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border: solid #ffffff;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def ex(ans, x):
