@@ -60,7 +60,7 @@ div[class*="css-5rimss e1nzilvr5"] {
     gap: 5px;
 }
 
-[data-testid="stHorizontalBlock"] {
+div[class*="css-ocqkz7 e1f1d6gn3"] {
     height: 25px;
 }
 
