@@ -148,9 +148,7 @@ def ex(ans, x):
         with col10:
             header0('')
 
-head1, head2, head3 = st.columns([1, 20, 1])
-with head2:
-    head('Essential Medicines')
+head('Essential Medicines')
 
 col1, col2 = st.columns([1, 1])
 col3, col4 = st.columns([1, 1])
