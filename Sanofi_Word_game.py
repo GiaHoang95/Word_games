@@ -60,6 +60,10 @@ div[class*="css-5rimss e1nzilvr5"] {
     gap: 5px;
 }
 
+[data-testid="stHorizontalBlock"] {
+    gap: 0px;
+}
+
 </style>
 """
 
