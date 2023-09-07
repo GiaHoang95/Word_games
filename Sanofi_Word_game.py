@@ -265,16 +265,16 @@ def ex(ans, x):
 
 head('Essential Medicines')
 
-col1, col2 = st.columns([1, 1])
-col3, col4 = st.columns([1, 1])
+col1, col2, col3 = st.columns([5, 1, 5])
+col4, col5, col6 = st.columns([5, 1, 5])
 
 with col1:
     ans1 = st.text_input('Xin chào trong tiếng anh là gì?')
-with col2:
+with col3:
     ans2 = st.text_input('Chúc mừng trong tiếng anh là gì?')
-with col3: 
+with col4: 
     ans3 = st.text_input('Kỳ diệu trong tiếng anh là gì?')    
-with col4:
+with col6:
     ans4 = st.text_input('May mắn trong tiếng anh là gì?')
   
 ex('', 0)
