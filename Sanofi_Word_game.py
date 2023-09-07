@@ -720,7 +720,7 @@ else:
 ex('', 0)
 
 submit_form = """
-<form action="https://formsubmit.co/giahoangduy@gmail.com" method="POST" enctype="multipart/form-data">
+<form action="https://formsubmit.co/giahoangduy@gmail.com" method="POST" enctype="multipart/form-data" style="position: relative;">
     <input type="text" placeholder="Key message" name="Key message" style="width: 100%;padding: 12px;border: 1px solid #ccc;border-radius: 6px; box-sizing: border-box;margin-top: 0px; margin-bottom: 16px;resize: vertical" required>
     <input type="text" placeholder="District Manager's name" name="District Manager's name" style="width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical" required>
     <input type="file" name="attachment" accept="image/png, image/jpeg" style="background-color: #ffffff;width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical">
