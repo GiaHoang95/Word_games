@@ -73,13 +73,13 @@ def header_space(url):
     st.markdown(f'<div style="opacity:0;width:100%;height:30px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0px solid #ffffff;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
 def header(url):
-    st.markdown(f'<div style="width:100%;height:25px;display:flex;justify-content:center;align-items:center;background-color:#C2C4EC;color:#ffffff;border:0.5px solid #C2C4EC;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="width:100%;height:25px;display:flex;justify-content:center;align-items:center;background-color:#C2C4EC;color:#ffffff;border:0px solid #C2C4EC;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def header0(url):
     st.markdown(f'<div style="opacity:0;width:100%;height:25px;display:flex;justify-content:center;align-items:center;background-color:#C2C4EC;color:#33ff33;border:0px solid #C2C4EC;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def headerkm(url):
-    st.markdown(f'<div style="width:100%;height:25px;display:flex;justify-content:center;align-items:center;background-color:#3941E5;color:#ffffff;border:0.5px solid #3941E5;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="width:100%;height:25px;display:flex;justify-content:center;align-items:center;background-color:#3941E5;color:#ffffff;border:0px solid #3941E5;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def head(url):
     st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:#7A01E6;font-weight:bold;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
