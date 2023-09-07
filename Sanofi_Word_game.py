@@ -61,7 +61,7 @@ div[class*="css-5rimss e1nzilvr5"] {
 }
 
 [data-testid="stHorizontalBlock"] {
-    gap: 0px;
+    gap: 1px;
 }
 
 </style>
