@@ -687,8 +687,8 @@ if len(ans8) != 6:
 else:
     ex(ans8, 8)
 
-if len(ans9) != 9:
-    ex('         ', 9)
+if len(ans9) != 8:
+    ex('        ', 9)
 else:
     ex(ans9, 9)
 
