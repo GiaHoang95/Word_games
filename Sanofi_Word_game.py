@@ -90,6 +90,9 @@ def headerkm(url):
 
 def head(url):
     st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:#7A01E6;font-weight:bold;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+  
+def head_up(url):
+    st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:black;font-weight:bold;font-size:1rem;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def ex(ans, x):
     col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14, col15, col16 = st.columns(16)
@@ -723,7 +726,7 @@ submit_form = """
 <form action="https://formsubmit.co/giahoangduy@gmail.com" method="POST" enctype="multipart/form-data">
     <input type="text" placeholder="Key message" name="Key message" style="width: 100%;padding: 12px;border: 1px solid #ccc;border-radius: 6px; box-sizing: border-box;margin-top: 18px; margin-bottom: 16px;resize: vertical" required>
     <input type="text" placeholder="District Manager's name" name="District Manager's name" style="width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical" required>
-    <p>Upload</p>
+    headup('Upload ảnh chụp màn hình phần ô chữ bên trên')
     <input type="file" name="attachment" accept="image/png, image/jpeg" style="background-color: #ffffff;width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical">
     <button type="submit" style="background-color: #04AA6D;color: white;padding: 12px 20px;border: none;border-radius: 6px;cursor: pointer;">Send</button>
 </form>
