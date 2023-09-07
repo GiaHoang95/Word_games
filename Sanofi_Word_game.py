@@ -617,33 +617,33 @@ col6a, col6b, col6c, col6d, col6e = st.columns([0.05, 5, 0.1, 5, 0.05])
 col7a, col7b, col7c, col7d, col7e = st.columns([0.05, 5, 0.1, 5, 0.05])
 
 with col1b:
-    ans1 = st.text_input('1. 1. Chuỗi video ngắn ngắn 5 phút dành cho bác sĩ cập nhật thông tin điều trị LUTS/BPH')
+    ans1 = st.text_input('1.Chuỗi video ngắn ngắn 5 phút dành cho bác sĩ cập nhật thông tin điều trị LUTS/BPH')
 with col1d:
-    ans2 = st.text_input('2. Chuỗi chương trình giáo dục cho bệnh nhân rất thành công mà Sanofi phối hợp cùng BV ĐH Y Dược HCM')
+    ans2 = st.text_input('2.Chuỗi chương trình giáo dục cho bệnh nhân rất thành công mà Sanofi phối hợp cùng BV ĐH Y Dược HCM')
 with col2b: 
-    ans3 = st.text_input('3. Cùng với Lovenox, đây là brand có thắng lợi lớn trong project Đàm phán giá năm 2023')    
+    ans3 = st.text_input('3.Cùng với Lovenox, đây là brand có thắng lợi lớn trong project Đàm phán giá năm 2023')    
 with col2d:
-    ans4 = st.text_input('4. Quốc gia có trung tâm R&D duy nhất của Sanofi ở Đông Nam Á')
+    ans4 = st.text_input('4.Quốc gia có trung tâm R&D duy nhất của Sanofi ở Đông Nam Á')
 with col3b: 
-    ans5 = st.text_input(' ')    
+    ans5 = st.text_input('5.')    
 with col3d:
-    ans6 = st.text_input('6. Số brand mà BU EM đang có thầu Đàm phán giá')
+    ans6 = st.text_input('6.Số brand mà BU EM đang có thầu Đàm phán giá')
 with col4b: 
-    ans7 = st.text_input('7. We are ... Sanofi')
+    ans7 = st.text_input('7.We are ... Sanofi')
 with col4d:
-    ans8 = st.text_input('8. Brand của BU EM quen thuộc với hình ảnh "dòng thác"')
+    ans8 = st.text_input('8.Brand của BU EM quen thuộc với hình ảnh "dòng thác"')
 with col5b:
-    ans9 = st.text_input('9. We chase the ... of science to improve people s live')
+    ans9 = st.text_input('9.We chase the ... of science to improve people s live')
 with col5d: 
-    ans10 = st.text_input('10. Brand có doanh số cao nhất trong nửa đầu năm 2023')    
+    ans10 = st.text_input('10.Brand có doanh số cao nhất trong nửa đầu năm 2023')    
 with col6b:
-    ans11 = st.text_input('11. Một trong 4 "Play to win behavior" mang hàm ý chấp nhận thử thách mới')
+    ans11 = st.text_input('11.Một trong 4 "Play to win behavior" mang hàm ý chấp nhận thử thách mới')
 with col6d: 
-    ans12 = st.text_input('12. Ngôi sao mới của Sanofi Global, một thuốc sinh học có doanh thu cao nhất năm 2023')    
+    ans12 = st.text_input('12.Ngôi sao mới của Sanofi Global, một thuốc sinh học có doanh thu cao nhất năm 2023')    
 with col7b:
-    ans13 = st.text_input('13. Ứng dụng hỗ trợ bác sĩ trong việc đánh giá tình trạng bệnh nhân của BU EM trên các nền tảng di động')
+    ans13 = st.text_input('13.Ứng dụng hỗ trợ bác sĩ trong việc đánh giá tình trạng bệnh nhân của BU EM trên các nền tảng di động')
 with col7d: 
-    ans14 = st.text_input('14. Brand của BU EM vừa có dạng thuốc lỏng, vừa có dạng thuốc rắn')    
+    ans14 = st.text_input('14.Brand của BU EM vừa có dạng thuốc lỏng, vừa có dạng thuốc rắn')    
 
   
 ex('', 0)
