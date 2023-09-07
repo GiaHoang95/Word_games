@@ -617,7 +617,7 @@ col6a, col6b, col6c, col6d, col6e = st.columns([0.05, 5, 0.1, 5, 0.05])
 col7a, col7b, col7c, col7d, col7e = st.columns([0.05, 5, 0.1, 5, 0.05])
 
 with col1b:
-    ans1 = st.text_input('1.Chuỗi video ngắn ngắn 5 phút dành cho bác sĩ cập nhật thông tin điều trị LUTS/BPH')
+    ans1 = st.text_input('1Chuỗi video ngắn ngắn 5 phút dành cho bác sĩ cập nhật thông tin điều trị LUTS/BPH')
 with col1d:
     ans2 = st.text_input('2.Chuỗi chương trình giáo dục cho bệnh nhân rất thành công mà Sanofi phối hợp cùng BV ĐH Y Dược HCM')
 with col2b: 
