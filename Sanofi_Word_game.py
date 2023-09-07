@@ -643,7 +643,7 @@ with col6d:
 with col7b:
     ans13 = st.text_input('13. Ứng dụng hỗ trợ bác sĩ trong việc đánh giá tình trạng bệnh nhân của BU EM trên các nền tảng di động')
 with col7d: 
-    ans14 = st.text_input('14. Brand của BU EM vừa có dạng thuốc lỏng, vừa có dạng thuốc rắn                                 ')    
+    ans14 = st.text_input('14. Brand của BU EM vừa có dạng thuốc lỏng, vừa có dạng thuốc rắn')    
 
   
 ex('', 0)
