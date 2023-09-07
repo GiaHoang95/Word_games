@@ -641,7 +641,7 @@ with col6b:
 with col6d: 
     ans12 = st.text_input('12.Ngôi sao mới của Sanofi Global, một thuốc sinh học có doanh thu cao nhất năm 2023')    
 with col7b:
-    ans13 = st.text_input('13. Ứng dụng hỗ trợ bác sĩ đánh giá tình trạng bệnh nhân của BU EM trên các nền tảng di động')
+    ans13 = st.text_input('13.Ứng dụng hỗ trợ bác sĩ đánh giá tình trạng bệnh nhân của BU EM trên các nền tảng di động')
 with col7d: 
     ans14 = st.text_input('14.Brand của BU EM vừa có dạng thuốc lỏng, vừa có dạng thuốc rắn')    
 
