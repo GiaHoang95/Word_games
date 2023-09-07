@@ -9,9 +9,9 @@ div[class*="stTextInput"] label p {
 }
 
 [data-testid="column"] {
-    width: calc((100/15)% - 1rem) !important;
-    flex: 1 1 calc((100/15)% - 1rem) !important;
-    min-width: calc((100/15)% - 1rem) !important;
+    width: calc((100/16)% - 1rem) !important;
+    flex: 1 1 calc((100/16)% - 1rem) !important;
+    min-width: calc((100/16)% - 1rem) !important;
 }
 
 [data-testid="stAppViewContainer"] {
@@ -70,6 +70,9 @@ div[class*="css-5rimss e1nzilvr5"] {
 
 st.write(tabs_font_css, unsafe_allow_html=True)
 
+def header_stt(url):
+    st.markdown(f'<div style="width:100%;height:40px;display:flex;justify-content:center;align-items:center;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+
 def header_space(url):
     st.markdown(f'<div style="opacity:0;width:100%;height:30px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border: 0px solid #ffffff;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
@@ -86,11 +89,11 @@ def head(url):
     st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:#7A01E6;font-weight:bold;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def ex(ans, x):
-    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14, col15 = st.columns(15)
+    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14, col15, col16 = st.columns(16)
 
     if x == 0:
         with col1:
-            header_space('')
+            header_sttst4t('1')
         with col2:
             header_space('')
         with col3:
@@ -119,10 +122,12 @@ def ex(ans, x):
             header_space('')
         with col15:
             header_space('')
+        with col16:
+            header_space('')
           
     if x == 1:
         with col1:
-            header('')
+            header_stt('1')
         with col2:
             header('')
         with col3:
@@ -142,19 +147,20 @@ def ex(ans, x):
         with col10:
             header('')
         with col11:
-            header('')
+            header0('')
         with col12:
-            header('')
+            header_space('')
         with col13:
-            header('')
+            header_space('')
         with col14:
-            header('')
+            header_space('')
         with col15:
-            header('')       
-    
+            header_space('')
+        with col16:
+            header('')  
     elif x == 2:
         with col1:
-            header0('')
+            header_stt('2')
         with col2:
             header(ans.upper()[0])
         with col3:
@@ -175,10 +181,19 @@ def ex(ans, x):
             header0('')
         with col11:
             header0('')
-
+        with col12:
+            header_space('')
+        with col13:
+            header_space('')
+        with col14:
+            header_space('')
+        with col15:
+            header_space('')
+        with col16:
+            header('')
     elif x == 3:
         with col1:
-            header(ans.upper()[0])
+            header_stt('3')
         with col2:
             header(ans.upper()[1])
         with col3:
@@ -207,10 +222,12 @@ def ex(ans, x):
             header_space('')
         with col15:
             header_space('')
+        with col16:
+            header('')
 
     elif x == 4:
         with col1:
-            header0('')
+            header_stt('4')
         with col2:
             header0('')
         with col3:
@@ -239,6 +256,8 @@ def ex(ans, x):
             header_space('')
         with col15:
             header_space('')
+        with col16:
+            header('')
 
 
 head('Essential Medicines')
