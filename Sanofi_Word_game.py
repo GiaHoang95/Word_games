@@ -261,28 +261,20 @@ with col3:
 with col4:
     ans4 = st.text_input('May mắn trong tiếng anh là gì?')
 
-ex('           ', 0)
-
 if len(ans1) < 5:
     ex('     ', 1)
 else:
     ex(ans1, 1)
-
-ex('           ', 0)
 
 if len(ans2) < 8:
     ex('        ', 2)
 else:
     ex(ans2, 2)
 
-ex('           ', 0)
-
 if len(ans3) < 10:
     ex('          ', 3)
 else:
     ex(ans3, 3)
-
-ex('           ', 0)
 
 if len(ans4) < 5:
     ex('     ', 4)
