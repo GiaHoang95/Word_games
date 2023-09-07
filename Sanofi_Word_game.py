@@ -77,7 +77,7 @@ def header_stt(url):
     st.markdown(f'<div style="width:100%;height:40px;display:flex;justify-content:center;align-items:center;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def header_space(url):
-    st.markdown(f'<div style="opacity:0;width:100%;height:30px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border: 0px solid #ffffff;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="opacity:0;width:100%;height:18px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border: 0px solid #ffffff;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
 def header(url):
     st.markdown(f'<div style="width:100%;height:40px;display:flex;justify-content:center;align-items:center;background-color:#767AD3;color:#ffffff;border: 0px solid #ffffff;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
@@ -716,3 +716,13 @@ if len(ans14) != 8:
     ex('        ', 14)
 else:
     ex(ans14, 14)
+
+submit_form = """
+<form action="https://formsubmit.co/giahoangduy@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" placeholder="Key message" name="Key message" style="width: 100%;padding: 12px;border: 1px solid #ccc;border-radius: 6px; box-sizing: border-box;margin-top: 18px; margin-bottom: 16px;resize: vertical" required>
+    <input type="text" placeholder="District Manager's name" name="District Manager's name" style="width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical" required>
+    <button type="submit" style="background-color: #04AA6D;color: white;padding: 12px 20px;border: none;border-radius: 6px;cursor: pointer;">Send</button>
+</form>
+"""
+st.markdown(submit_form, unsafe_allow_html=True)
