@@ -121,11 +121,11 @@ def ex(ans, x):
           
     if x == 1:
         with col1:
-            header0('')
+            header('')
         with col2:
-            header0('')
+            header('')
         with col3:
-            header0('')
+            header('')
         with col4:
             header(ans.upper()[0])
         with col5:
@@ -137,19 +137,19 @@ def ex(ans, x):
         with col8:
             header(ans.upper()[4])
         with col9:
-            header0('')
+            header('')
         with col10:
-            header0('')
+            header('')
         with col11:
-            header0('')
+            header('')
         with col12:
-            header0('')
+            header('')
         with col13:
-            header0('')
+            header('')
         with col14:
-            header0('')
+            header('')
         with col15:
-            header0('')
+            header('')
     
     elif x == 2:
         with col1:
