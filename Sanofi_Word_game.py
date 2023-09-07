@@ -280,7 +280,7 @@ def ex(ans, x):
         with col7:
             header0('')
         with col8:
-            headerkm('ans5')
+            headerkm(ans.upper()[0])
         with col9:
             header0('')
         with col10:
