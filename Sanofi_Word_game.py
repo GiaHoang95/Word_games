@@ -63,8 +63,10 @@ div[class*="css-5rimss e1nzilvr5"] {
 [data-testid="stHorizontalBlock"] {
     gap: 1px;
     height: 40px
+}
 
 div[class*="css-keje6w e1f1d6gn1"] {
+    padding-top: 40px;
 }
 
 </style>
