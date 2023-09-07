@@ -724,7 +724,7 @@ submit_form = """
     <input type="text" placeholder="Key message" name="Key message" style="width: 100%;padding: 12px;border: 1px solid #ccc;border-radius: 6px; box-sizing: border-box;margin-top: 0px; margin-bottom: 16px;resize: vertical" required>
     <input type="text" placeholder="District Manager's name" name="District Manager's name" style="width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical" required>
     <input type="file" name="attachment" accept="image/png, image/jpeg" style="background-color: #ffffff;width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical">
-    <button type="submit" style="left: 50%;background-color: #04AA6D;color: white;padding: 12px 20px;border: none;border-radius: 6px;cursor: pointer;">Send</button>
+    <button type="submit" style="position: absolute;left: 50%;background-color: #04AA6D;color: white;padding: 12px 20px;border: none;border-radius: 6px;cursor: pointer;">Send</button>
 </form>
 """
 st.markdown(submit_form, unsafe_allow_html=True)
