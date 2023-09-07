@@ -85,7 +85,7 @@ def head(url):
     st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:#7A01E6;font-weight:bold;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def ex(ans, x):
-    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14, col15 = st.columns(15)
+    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14, col15 = st.columns(11)
 
     if x == 0:
         with col1:
@@ -109,14 +109,6 @@ def ex(ans, x):
         with col10:
             header_space('')
         with col11:
-            header_space('')
-        with col12:
-            header_space('')
-        with col13:
-            header_space('')
-        with col14:
-            header_space('')
-        with col15:
             header_space('')
           
     if x == 1:
@@ -142,14 +134,6 @@ def ex(ans, x):
             header('')
         with col11:
             header('')
-        with col12:
-            header('')
-        with col13:
-            header('')
-        with col14:
-            header('')
-        with col15:
-            header('')
     
     elif x == 2:
         with col1:
@@ -173,14 +157,6 @@ def ex(ans, x):
         with col10:
             header0('')
         with col11:
-            header0('')
-        with col12:
-            header0('')
-        with col13:
-            header0('')
-        with col14:
-            header0('')
-        with col15:
             header0('')
 
     elif x == 3:
@@ -206,14 +182,6 @@ def ex(ans, x):
             header(ans.upper()[9])
         with col11:
             header0('')
-        with col12:
-            header0('')
-        with col13:
-            header0('')
-        with col14:
-            header0('')
-        with col15:
-            header0('')
 
     elif x == 4:
         with col1:
@@ -237,14 +205,6 @@ def ex(ans, x):
         with col10:
             header0('')
         with col11:
-            header0('')
-        with col12:
-            header0('')
-        with col13:
-            header0('')
-        with col14:
-            header0('')
-        with col15:
             header0('')
 
 head('Essential Medicines')
