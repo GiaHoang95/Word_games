@@ -12,6 +12,7 @@ div[class*="stTextInput"] label p {
     width: calc((100/16)% - 1rem) !important;
     flex: 1 1 calc((100/16)% - 1rem) !important;
     min-width: calc((100/16)% - 1rem) !important;
+    padding-top: 40px;
 }
 
 [data-testid="stAppViewContainer"] {
@@ -66,7 +67,6 @@ div[class*="css-5rimss e1nzilvr5"] {
 }
 
 div[class*="css-keje6w e1f1d6gn1"] {
-    padding-top: 40px;
 }
 
 </style>
