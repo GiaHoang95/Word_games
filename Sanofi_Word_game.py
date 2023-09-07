@@ -276,7 +276,9 @@ with col3:
     ans3 = st.text_input('Kỳ diệu trong tiếng anh là gì?')    
 with col4:
     ans4 = st.text_input('May mắn trong tiếng anh là gì?')
-ex('            ', 0)
+  
+ex('', 0)
+
 if len(ans1) < 5:
     ex('     ', 1)
 else:
