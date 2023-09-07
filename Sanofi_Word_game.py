@@ -66,7 +66,7 @@ div[class*="css-5rimss e1nzilvr5"] {
 st.write(tabs_font_css, unsafe_allow_html=True)
 
 def header_space(url):
-    st.markdown(f'<div style="opacity:0;width:25px;height:0px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0px solid #ffffff;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="opacity:0;width:25px;height:5px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border:0px solid #ffffff;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
 def header(url):
     st.markdown(f'<div style="width:25px;height:25px;display:flex;justify-content:center;align-items:center;background-color:#C2C4EC;color:#ffffff;border:0.5px solid #C2C4EC;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
