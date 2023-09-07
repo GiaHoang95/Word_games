@@ -645,7 +645,6 @@ with col7b:
 with col7d: 
     ans14 = st.text_input('14.Brand của BU EM vừa có dạng thuốc lỏng, vừa có dạng thuốc rắn')    
 
-  
 ex('', 0)
 
 if len(ans1) != 12:
