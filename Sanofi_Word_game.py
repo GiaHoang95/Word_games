@@ -96,7 +96,7 @@ def ex(ans, x):
 
     if x == 0:
         with col1:
-            header_sttst4t('1')
+            header_space('')
         with col2:
             header_space('')
         with col3:
