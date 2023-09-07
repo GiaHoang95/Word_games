@@ -66,7 +66,6 @@ div[class*="css-5rimss e1nzilvr5"] {
 }
 
 div[class*="css-keje6w e1f1d6gn1"] {
-    padding-top: 40px;
 }
 
 </style>
