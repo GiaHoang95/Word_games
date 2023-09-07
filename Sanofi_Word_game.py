@@ -732,5 +732,7 @@ submit_form = """
 """
 st.markdown(submit_form, unsafe_allow_html=True)
 
+ex('', 0)
+
 head_up('Lưu ý: Upload ảnh chụp màn hình phần ô chữ bên trên')
 
