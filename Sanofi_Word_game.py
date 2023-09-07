@@ -66,7 +66,7 @@ div[class*="css-5rimss e1nzilvr5"] {
 }
 
 div[class*="st-bd st-by st-bz st-c0 st-c1 st-c2 st-c3 st-c4 st-c5 st-c6 st-c7 st-b8 st-c8 st-c9 st-ca st-cb st-cc st-cd st-ce st-cf st-ae st-af st-ag st-cg st-ai st-aj st-bx st-ch st-ci st-cj"] {
-    padding: 0px;
+    padding-top: 0px;
 }
 
 </style>
