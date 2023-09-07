@@ -80,13 +80,13 @@ def header_space(url):
     st.markdown(f'<div style="opacity:0;width:100%;height:30px;display:flex;justify-content:center;align-items:center;background-color:#ffffff;color:#33ff33;border: 0px solid #ffffff;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
 def header(url):
-    st.markdown(f'<div style="width:100%;height:40px;display:flex;justify-content:center;align-items:center;background-color:#C2C4EC;color:#ffffff;border: 0px solid #ffffff;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="width:100%;height:40px;display:flex;justify-content:center;align-items:center;background-color:#767AD3;color:#ffffff;border: 0px solid #ffffff;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def header0(url):
     st.markdown(f'<div style="opacity:0;width:100%;height:40px;display:flex;justify-content:center;align-items:center;background-color:#C2C4EC;color:#33ff33;border: 0px solid #ffffff;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def headerkm(url):
-    st.markdown(f'<div style="width:100%;height:40px;display:flex;justify-content:center;align-items:center;background-color:#3941E5;color:#ffffff;border: 0px solid #ffffff;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="width:100%;height:40px;display:flex;justify-content:center;align-items:center;background-color:#7A01E6;color:#ffffff;border: 0px solid #ffffff;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def head(url):
     st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:#7A01E6;font-weight:bold;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
@@ -132,101 +132,103 @@ def ex(ans, x):
         with col1:
             header_stt('1')
         with col2:
-            header('')
-        with col3:
-            header('')
-        with col4:
-            header(ans.upper()[0])
-        with col5:
-            header(ans.upper()[1])
-        with col6:
-            headerkm(ans.upper()[2])
-        with col7:
-            header(ans.upper()[3])
-        with col8:
-            header(ans.upper()[4])
-        with col9:
-            header('')
-        with col10:
-            header('')
-        with col11:
             header0('')
+        with col3:
+            header0('')
+        with col4:
+            header0('')
+        with col5:
+            header(ans.upper()[0])
+        with col6:
+            header(ans.upper()[1])
+        with col7:
+            header(ans.upper()[2])
+        with col8:
+            headerkm(ans.upper()[3])
+        with col9:
+            header(ans.upper()[4])
+        with col10:
+            header(ans.upper()[5])
+        with col11:
+            header(ans.upper()[6])
         with col12:
-            header_space('')
+            header(ans.upper()[7])
         with col13:
-            header_space('')
+            header(ans.upper()[8])
         with col14:
-            header_space('')
+            header(ans.upper()[9])
         with col15:
-            header_space('')
+            header(ans.upper()[10])
         with col16:
-            header('')  
+            header(ans.upper()[11])
+
     elif x == 2:
         with col1:
             header_stt('2')
         with col2:
-            header(ans.upper()[0])
+            header0('')
         with col3:
-            header(ans.upper()[1])
+            header(ans.upper()[0])
         with col4:
-            header(ans.upper()[2])
+            header(ans.upper()[1])
         with col5:
-            header(ans.upper()[3])
+            header(ans.upper()[2])
         with col6:
-            headerkm(ans.upper()[4])
+            header(ans.upper()[3])
         with col7:
-            header(ans.upper()[5])
+            header(ans.upper()[4])
         with col8:
-            header(ans.upper()[6])
+            headerkm(ans.upper()[5])
         with col9:
-            header(ans.upper()[7])
+            header(ans.upper()[6])
         with col10:
-            header0('')
+            header(ans.upper()[7])
         with col11:
-            header0('')
+            header(ans.upper()[8])
         with col12:
-            header_space('')
+            header(ans.upper()[9])
         with col13:
-            header_space('')
+            header(ans.upper()[10])
         with col14:
-            header_space('')
+            header(ans.upper()[11])
         with col15:
-            header_space('')
+            header0('')
         with col16:
-            header('')
+            header0('')
+
     elif x == 3:
         with col1:
             header_stt('3')
         with col2:
-            header(ans.upper()[1])
-        with col3:
-            header(ans.upper()[2])
-        with col4:
-            header(ans.upper()[3])
-        with col5:
-            header(ans.upper()[4])
-        with col6:
-            headerkm(ans.upper()[5])
-        with col7:
-            header(ans.upper()[6])
-        with col8:
-            header(ans.upper()[7])
-        with col9:
-            header(ans.upper()[8])
-        with col10:
-            header(ans.upper()[9])
-        with col11:
             header0('')
+        with col3:
+            header0('')
+        with col4:
+            header0('')
+        with col5:
+            header0('')
+        with col6:
+            header(ans.upper()[0])
+        with col7:
+            header(ans.upper()[1])
+        with col8:
+            headerkm(ans.upper()[2])
+        with col9:
+            header(ans.upper()[3])
+        with col10:
+            header(ans.upper()[4])
+        with col11:
+            header(ans.upper()[5])
         with col12:
-            header_space('')
+            header0('')
         with col13:
-            header_space('')
+            header0('')
         with col14:
-            header_space('')
+            header0('')
         with col15:
-            header_space('')
+            header0('')
         with col16:
-            header('')
+            header0('')
 
     elif x == 4:
         with col1:
@@ -234,17 +236,51 @@ def ex(ans, x):
         with col2:
             header0('')
         with col3:
-            header(ans.upper()[0])
-        with col4:
-            header(ans.upper()[1])
-        with col5:
-            header(ans.upper()[2])
-        with col6:
-            headerkm(ans.upper()[3])
-        with col7:
-            header(ans.upper()[4])
-        with col8:
             header0('')
+        with col4:
+            header(ans.upper()[0])
+        with col5:
+            header(ans.upper()[1])
+        with col6:
+            header(ans.upper()[2])
+        with col7:
+            header(ans.upper()[3])
+        with col8:
+            headerkm(ans.upper()[4])
+        with col9:
+            header(ans.upper()[5])
+        with col10:
+            header(ans.upper()[6])
+        with col11:
+            header0('')
+        with col12:
+            header0('')
+        with col13:
+            header0('')
+        with col14:
+            header0('')
+        with col15:
+            header0('')
+        with col16:
+            header0('')
+
+    elif x == 5:
+        with col1:
+            header_stt('5')
+        with col2:
+            header0('')
+        with col3:
+            header0('')
+        with col4:
+            header0('')
+        with col5:
+            header0('')
+        with col6:
+            header0('')
+        with col7:
+            header0('')
+        with col8:
+            headerkm('')
         with col9:
             header0('')
         with col10:
@@ -252,16 +288,321 @@ def ex(ans, x):
         with col11:
             header0('')
         with col12:
-            header_space('')
+            header0('')
         with col13:
-            header_space('')
+            header0('')
         with col14:
-            header_space('')
+            header0('')
         with col15:
-            header_space('')
+            header0('')
         with col16:
-            header('')
+            header0('')
 
+    elif x == 6:
+        with col1:
+            header_stt('6')
+        with col2:
+            header0('')
+        with col3:
+            header0('')
+        with col4:
+            header0('')
+        with col5:
+            header0('')
+        with col6:
+            header0('')
+        with col7:
+            header0('')
+        with col8:
+            headerkm(ans.upper()[0])
+        with col9:
+            header(ans.upper()[1])
+        with col10:
+            header(ans.upper()[2])
+        with col11:
+            header(ans.upper()[3])
+        with col12:
+            header0('')
+        with col13:
+            header0('')
+        with col14:
+            header0('')
+        with col15:
+            header0('')
+        with col16:
+            header0('')
+
+    elif x == 7:
+        with col1:
+            header_stt('7')
+        with col2:
+            header0('')
+        with col3:
+            header0('')
+        with col4:
+            header0('')
+        with col5:
+            header0('')
+        with col6:
+            header0('')
+        with col7:
+            header0('')
+        with col8:
+            headerkm(ans.upper()[0])
+        with col9:
+            header(ans.upper()[1])
+        with col10:
+            header(ans.upper()[2])
+        with col11:
+            header0('')
+        with col12:
+            header0('')
+        with col13:
+            header0('')
+        with col14:
+            header0('')
+        with col15:
+            header0('')
+        with col16:
+            header0('')
+
+    elif x == 8:
+        with col1:
+            header_stt('8')
+        with col2:
+            header0('')
+        with col3:
+            header0('')
+        with col4:
+            header0('')
+        with col5:
+            header(ans.upper()[0])
+        with col6:
+            header(ans.upper()[1])
+        with col7:
+            header(ans.upper()[2])
+        with col8:
+            headerkm(ans.upper()[3])
+        with col9:
+            header(ans.upper()[4])
+        with col10:
+            header(ans.upper()[5])
+        with col11:
+            header0('')
+        with col12:
+            header0('')
+        with col13:
+            header0('')
+        with col14:
+            header0('')
+        with col15:
+            header0('')
+        with col16:
+            header0('')
+
+    elif x == 9:
+        with col1:
+            header_stt('9')
+        with col2:
+            header0('')
+        with col3:
+            header0('')
+        with col4:
+            header0('')
+        with col5:
+            header0('')
+        with col6:
+            header0('')
+        with col7:
+            header0('')
+        with col8:
+            headerkm(ans.upper()[0])
+        with col9:
+            header(ans.upper()[1])
+        with col10:
+            header(ans.upper()[2])
+        with col11:
+            header(ans.upper()[3])
+        with col12:
+            header(ans.upper()[4])
+        with col13:
+            header(ans.upper()[5])
+        with col14:
+            header(ans.upper()[7])
+        with col15:
+            header(ans.upper()[8])
+        with col16:
+            header0('')
+
+    elif x == 10:
+        with col1:
+            header_stt('10')
+        with col2:
+            header0('')
+        with col3:
+            header0('')
+        with col4:
+            header(ans.upper()[0])
+        with col5:
+            header(ans.upper()[1])
+        with col6:
+            header(ans.upper()[2])
+        with col7:
+            header(ans.upper()[3])
+        with col8:
+            headerkm(ans.upper()[4])
+        with col9:
+            header(ans.upper()[5])
+        with col10:
+            header(ans.upper()[6])
+        with col11:
+            header(ans.upper()[7])
+        with col12:
+            header(ans.upper()[8])
+        with col13:
+            header(ans.upper()[9])
+        with col14:
+            header0('')
+        with col15:
+            header0('')
+        with col16:
+            header0('')
+
+    elif x == 11:
+        with col1:
+            header_stt('11')
+        with col2:
+            header0('')
+        with col3:
+            header0('')
+        with col4:
+            header(ans.upper()[0])
+        with col5:
+            header(ans.upper()[1])
+        with col6:
+            header(ans.upper()[2])
+        with col7:
+            header(ans.upper()[3])
+        with col8:
+            headerkm(ans.upper()[4])
+        with col9:
+            header(ans.upper()[5])
+        with col10:
+            header(ans.upper()[6])
+        with col11:
+            header0('')
+        with col12:
+            header0('')
+        with col13:
+            header0('')
+        with col14:
+            header0('')
+        with col15:
+            header0('')
+        with col16:
+            header0('')
+
+    elif x == 12:
+        with col1:
+            header_stt('12')
+        with col2:
+            header0('')
+        with col3:
+            header0('')
+        with col4:
+            header0('')
+        with col5:
+            header(ans.upper()[0])
+        with col6:
+            header(ans.upper()[1])
+        with col7:
+            header(ans.upper()[2])
+        with col8:
+            headerkm(ans.upper()[3])
+        with col9:
+            header(ans.upper()[4])
+        with col10:
+            header(ans.upper()[5])
+        with col11:
+            header(ans.upper()[6])
+        with col12:
+            header(ans.upper()[7])
+        with col13:
+            header0('')
+        with col14:
+            header0('')
+        with col15:
+            header0('')
+        with col16:
+            header0('')
+
+    elif x == 13:
+        with col1:
+            header_stt('13')
+        with col2:
+            header0('')
+        with col3:
+            header0('')
+        with col4:
+            header0('')
+        with col5:
+            header0('')
+        with col6:
+            header(ans.upper()[0])
+        with col7:
+            header(ans.upper()[1])
+        with col8:
+            headerkm(ans.upper()[2])
+        with col9:
+            header(ans.upper()[3])
+        with col10:
+            header(ans.upper()[4])
+        with col11:
+            header(ans.upper()[5])
+        with col12:
+            header0('')
+        with col13:
+            header0('')
+        with col14:
+            header0('')
+        with col15:
+            header0('')
+        with col16:
+            header0('')
+
+    elif x == 14:
+        with col1:
+            header_stt('14')
+        with col2:
+            header(ans.upper()[0])
+        with col3:
+            header(ans.upper()[1])
+        with col4:
+            header(ans.upper()[2])
+        with col5:
+            header(ans.upper()[3])
+        with col6:
+            header(ans.upper()[4])
+        with col7:
+            header(ans.upper()[5])
+        with col8:
+            headerkm(ans.upper()[6])
+        with col9:
+            header(ans.upper()[7])
+        with col10:
+            header0('')
+        with col11:
+            header0('')
+        with col12:
+            header0('')
+        with col13:
+            header0('')
+        with col14:
+            header0('')
+        with col15:
+            header0('')
+        with col16:
+            header0('')
 
 head('Essential Medicines')
 
@@ -269,34 +610,110 @@ ex('', 0)
 
 col1a, col1b, col1c, col1d, col1e = st.columns([0.05, 5, 0.1, 5, 0.05])
 col2a, col2b, col2c, col2d, col2e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col3a, col3b, col3c, col3d, col3e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col4a, col4b, col4c, col4d, col4e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col5a, col5b, col5c, col5d, col5e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col6a, col6b, col6c, col6d, col6e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col7a, col7b, col7c, col7d, col7e = st.columns([0.05, 5, 0.1, 5, 0.05])
 
 with col1b:
-    ans1 = st.text_input('Xin chào trong tiếng anh là gì?')
+    ans1 = st.text_input('1. Chuỗi video ngắn ngắn 5 phút dành cho bác sĩ cập nhật thông tin điều trị LUTS/BPH')
 with col1d:
-    ans2 = st.text_input('Chúc mừng trong tiếng anh là gì?')
+    ans2 = st.text_input('2. Chuỗi chương trình giáo dục cho bệnh nhân rất thành công mà Sanofi phối hợp cùng BV ĐH Y Dược HCM')
 with col2b: 
-    ans3 = st.text_input('Kỳ diệu trong tiếng anh là gì?')    
+    ans3 = st.text_input('3. Cùng với Lovenox, đây là brand có thắng lợi lớn trong project Đàm phán giá năm 2023')    
 with col2d:
-    ans4 = st.text_input('May mắn trong tiếng anh là gì?')
+    ans4 = st.text_input('4. Quốc gia có trung tâm R&D duy nhất của Sanofi ở Đông Nam Á')
+with col3b: 
+    ans5 = st.text_input(' ')    
+with col3d:
+    ans6 = st.text_input('6. Số brand mà BU EM đang có thầu Đàm phán giá')
+with col4b: 
+    ans7 = st.text_input('7. We are ... Sanofi')
+with col4d:
+    ans8 = st.text_input('8. Brand của BU EM quen thuộc với hình ảnh "dòng thác"')
+with col5b:
+    ans9 = st.text_input('9. We chase the ... of science to improve people s live')
+with col5d: 
+    ans10 = st.text_input('10. Brand có doanh số cao nhất trong nửa đầu năm 2023')    
+with col6b:
+    ans11 = st.text_input('11. Một trong 4 "Play to win behavior" mang hàm ý chấp nhận thử thách mới')
+with col6d: 
+    ans12 = st.text_input('12. Ngôi sao mới của Sanofi Global, một thuốc sinh học có doanh thu cao nhất năm 2023')    
+with col7b:
+    ans13 = st.text_input('13. Ứng dụng hỗ trợ bác sĩ trong việc đánh giá tình trạng bệnh nhân của BU EM trên các nền tảng di động')
+with col7d: 
+    ans14 = st.text_input('14. Brand của BU EM vừa có dạng thuốc lỏng, vừa có dạng thuốc rắn                                 ')    
+
   
 ex('', 0)
 
-if len(ans1) < 5:
-    ex('     ', 1)
+if len(ans1) != 12:
+    ex('            ', 1)
 else:
     ex(ans1, 1)
 
-if len(ans2) < 8:
-    ex('        ', 2)
+if len(ans2) != 12:
+    ex('            ', 2)
 else:
     ex(ans2, 2)
 
-if len(ans3) < 10:
-    ex('          ', 3)
+if len(ans3) != 6:
+    ex('      ', 3)
 else:
     ex(ans3, 3)
 
-if len(ans4) < 5:
-    ex('     ', 4)
+if len(ans4) != 7:
+    ex('       ', 4)
 else:
     ex(ans4, 4)
+
+if len(ans5) != 1:
+    ex(' ', 5)
+else:
+    ex(ans5, 5)
+
+if len(ans6) != 4:
+    ex('    ', 6)
+else:
+    ex(ans6, 6)
+
+if len(ans7) != 3:
+    ex('   ', 7)
+else:
+    ex(ans7, 7)
+
+if len(ans8) != 6:
+    ex('       ', 8)
+else:
+    ex(ans8, 8)
+
+if len(ans9) != 9:
+    ex('         ', 9)
+else:
+    ex(ans9, 9)
+
+if len(ans10) != 10:
+    ex('          ', 10)
+else:
+    ex(ans10, 10)
+
+if len(ans11) != 7:
+    ex('       ', 11)
+else:
+    ex(ans11, 11)
+
+if len(ans12) != 8:
+    ex('        ', 12)
+else:
+    ex(ans12, 12)
+
+if len(ans13) != 7:
+    ex('       ', 13)
+else:
+    ex(ans13, 13)
+
+if len(ans14) != 8:
+    ex('        ', 14)
+else:
+    ex(ans14, 14)
