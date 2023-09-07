@@ -631,7 +631,7 @@ with col3d:
 with col4b: 
     ans7 = st.text_input('7.We are ... Sanofi')
 with col4d:
-    ans8 = st.text_input('8.Brand của BU EM quen thuộc với hình ảnh "dòng thác"')
+    ans8 = st.text_input('8.Brand của BU EM với hình ảnh "dòng thác"')
 with col5b:
     ans9 = st.text_input('9.We chase the ... of science to improve people s live')
 with col5d: 
