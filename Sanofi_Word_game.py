@@ -65,10 +65,6 @@ div[class*="css-5rimss e1nzilvr5"] {
     height: 40px;
 }
 
-div[class*="st-cc"] {
-    padding-top: 0px !important;
-}
-
 </style>
 """
 
