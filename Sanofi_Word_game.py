@@ -563,7 +563,7 @@ def ex(ans, x):
         with col11:
             header(ans.upper()[5])
         with col12:
-            header0('')
+            header(ans.upper()[6])
         with col13:
             header0('')
         with col14:
