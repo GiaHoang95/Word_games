@@ -266,7 +266,6 @@ def ex(ans, x):
 head('Essential Medicines')
 
 ex('', 0)
-ex('', 0)
 
 col1, col2, col3 = st.columns([5, 0.1, 5])
 col4, col5, col6 = st.columns([5, 0.1, 5])
