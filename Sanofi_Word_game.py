@@ -719,7 +719,6 @@ else:
 
 submit_form = """
 <form action="https://formsubmit.co/giahoangduy@gmail.com" method="POST">
-    <input type="hidden" name="_captcha" value="false">
     <input type="text" placeholder="Key message" name="Key message" style="width: 100%;padding: 12px;border: 1px solid #ccc;border-radius: 6px; box-sizing: border-box;margin-top: 18px; margin-bottom: 16px;resize: vertical" required>
     <input type="text" placeholder="District Manager's name" name="District Manager's name" style="width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical" required>
     <button type="submit" style="background-color: #04AA6D;color: white;padding: 12px 20px;border: none;border-radius: 6px;cursor: pointer;">Send</button>
