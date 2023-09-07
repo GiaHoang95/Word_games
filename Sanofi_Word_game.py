@@ -58,11 +58,11 @@ div[class*="css-5rimss e1nzilvr5"] {
 
 [data-testid="stVerticalBlock"] {
     gap: 1px;
-    height: 45px;
 }
 
 [data-testid="stHorizontalBlock"] {
     gap: 1px;
+    height: 45px
 }
 
 </style>
