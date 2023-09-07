@@ -265,8 +265,8 @@ def ex(ans, x):
 
 head('Essential Medicines')
 
-col1, col2, col3 = st.columns([5, 3, 5])
-col4, col5, col6 = st.columns([5, 3, 5])
+col1, col2, col3 = st.columns([5, 1, 5])
+col4, col5, col6 = st.columns([5, 1, 5])
 
 with col1:
     ans1 = st.text_input('Xin chào trong tiếng anh là gì?')
