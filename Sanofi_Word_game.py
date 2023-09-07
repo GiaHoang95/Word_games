@@ -625,7 +625,7 @@ with col2b:
 with col2d:
     ans4 = st.text_input('4.Quốc gia có trung tâm R&D duy nhất của Sanofi ở Đông Nam Á')
 with col3b: 
-    ans5 = st.text_input('5.')    
+    ans5 = st.text_input('5.', placeholder = '5. Câu hỏi')    
 with col3d:
     ans6 = st.text_input('6.Số brand mà BU EM đang có thầu Đàm phán giá')
 with col4b: 
