@@ -267,16 +267,16 @@ head('Essential Medicines')
 
 ex('', 0)
 
-col1, col2, col3 = st.columns([0.05, 5, 0.1, 5, 0.05])
-col4, col5, col6 = st.columns([0.05, 5, 0.1, 5, 0.05])
+col1a, col1b, col1c, col1d, col1e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col2a, col2b, col2c, col2d, col2e = st.columns([0.05, 5, 0.1, 5, 0.05])
 
-with col1:
+with col1b:
     ans1 = st.text_input('Xin chào trong tiếng anh là gì?')
-with col3:
+with col1d:
     ans2 = st.text_input('Chúc mừng trong tiếng anh là gì?')
-with col4: 
+with col2b: 
     ans3 = st.text_input('Kỳ diệu trong tiếng anh là gì?')    
-with col6:
+with col2d:
     ans4 = st.text_input('May mắn trong tiếng anh là gì?')
   
 ex('', 0)
