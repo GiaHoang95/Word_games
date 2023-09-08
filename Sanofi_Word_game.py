@@ -614,45 +614,6 @@ head('Essential Medicines')
 
 ex('', 0)
 
-col1a, col1b, col1c, col1d, col1e = st.columns([0.05, 5, 0.1, 5, 0.05])
-col2a, col2b, col2c, col2d, col2e = st.columns([0.05, 5, 0.1, 5, 0.05])
-col3a, col3b, col3c, col3d, col3e = st.columns([0.05, 5, 0.1, 5, 0.05])
-col4a, col4b, col4c, col4d, col4e = st.columns([0.05, 5, 0.1, 5, 0.05])
-col5a, col5b, col5c, col5d, col5e = st.columns([0.05, 5, 0.1, 5, 0.05])
-col6a, col6b, col6c, col6d, col6e = st.columns([0.05, 5, 0.1, 5, 0.05])
-col7a, col7b, col7c, col7d, col7e = st.columns([0.05, 5, 0.1, 5, 0.05])
-
-with col1b:
-    ans1 = st.text_input('1.Chuỗi video ngắn 5 phút dành cho bác sĩ cập nhật thông tin điều trị LUTS/BPH')
-with col1d:
-    ans2 = st.text_input('2.Chuỗi chương trình giáo dục cho bệnh nhân rất thành công mà Sanofi phối hợp cùng BVĐHYDHCM')
-with col2b: 
-    ans3 = st.text_input('3.Cùng với Lovenox, đây là brand có thắng lợi lớn trong project Đàm phán giá năm 2023')    
-with col2d:
-    ans4 = st.text_input('4.Quốc gia có trung tâm R&D duy nhất của Sanofi ở Đông Nam Á')
-with col3b: 
-    ans5 = st.text_input('5.Câu hỏi')    
-with col3d:
-    ans6 = st.text_input('6.Số brand mà BU EM đang có thầu Đàm phán giá')
-with col4b: 
-    ans7 = st.text_input('7.We are ... Sanofi')
-with col4d:
-    ans8 = st.text_input('8.Brand của BU EM với hình ảnh "dòng thác"')
-with col5b:
-    ans9 = st.text_input('9.We chase the ... of science to improve people s live')
-with col5d: 
-    ans10 = st.text_input('10.Brand có doanh số cao nhất trong nửa đầu năm 2023')    
-with col6b:
-    ans11 = st.text_input('11.Một trong 4 "Play to win behavior" mang hàm ý chấp nhận thử thách mới')
-with col6d: 
-    ans12 = st.text_input('12.Ngôi sao mới của Sanofi Global, một thuốc sinh học có doanh thu cao nhất năm 2023')    
-with col7b:
-    ans13 = st.text_input('13.Ứng dụng hỗ trợ bác sĩ đánh giá tình trạng bệnh nhân của BU EM trên các nền tảng di động')
-with col7d: 
-    ans14 = st.text_input('14.Brand của BU EM vừa có dạng thuốc lỏng, vừa có dạng thuốc rắn')    
-
-ex('', 0)
-
 if len(ans1) != 12:
     ex('            ', 1)
 else:
