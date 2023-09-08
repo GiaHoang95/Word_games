@@ -1,6 +1,6 @@
 import streamlit as st
 
-set_page_config(layout="small")
+st.set_page_config(layout="small")
 
 tabs_font_css = """
 <style>
