@@ -614,6 +614,21 @@ head('Essential Medicines')
 
 ex('', 0)
 
+ans1 = ('            ')
+ans2 = ('            ')          
+ans3 = ('            ')          
+ans4 = ('            ')          
+ans5 = ('            ')          
+ans6 = ('            ')          
+ans7 = ('            ')          
+ans8 = ('            ')          
+ans9 = ('            ')          
+ans10 = ('            ')          
+ans11 = ('            ')          
+ans12 = ('            ')
+ans13 = ('            ')
+ans14 = ('            ')
+
 if len(ans1) != 12:
     ex('            ', 1)
 else:
