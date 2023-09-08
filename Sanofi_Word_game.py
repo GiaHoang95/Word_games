@@ -9,9 +9,9 @@ div[class*="stTextInput"] label p {
 }
 
 [data-testid="column"] {
-    width: calc((100/18)%-2rem) !important;
-    flex: 1 1 calc((100/18)%-2rem) !important;
-    min-width: calc((100/18)%-2rem) !important;
+    width: calc((100/16)%-1rem) !important;
+    flex: 1 1 calc((100/16)%-1rem) !important;
+    min-width: calc((100/16)%-1rem) !important;
 }
 
 [data-testid="stAppViewContainer"] {
@@ -68,6 +68,7 @@ div[class*="css-1k67eer e1f1d6gn1"] {
 
 div[class*="css-1k67eer e1f1d6gn1] {
     width: calc(5%-1rem);
+    flex: 1 1 calc(4%-1rem) !important;
 }
 
 </style>
