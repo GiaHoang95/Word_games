@@ -64,6 +64,8 @@ div[class*="css-5rimss e1nzilvr5"] {
 
 div[class*="css-1k67eer e1f1d6gn1"] {
     height: 40px;
+    width: calc(5%);
+    flex: none;
 }
 
 </style>
