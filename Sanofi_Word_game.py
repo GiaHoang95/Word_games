@@ -32,9 +32,9 @@ div[class*="stTextInput"] label p {
     -webkit-font-smoothing: auto;
     color: rgb(49, 51, 63);
     box-sizing: border-box;
-    width: 700px;
+    width: 800px;
     padding: 3rem 0rem 10rem;
-    max-width: 700px;
+    max-width: 800px;
     position: relative;
 }
 
