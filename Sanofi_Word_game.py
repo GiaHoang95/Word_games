@@ -34,7 +34,7 @@ div[class*="stTextInput"] label p {
     box-sizing: border-box;
     width: 100%;
     padding: 3rem 0rem 10rem;
-    max-width: 52rem;
+    max-width: 60rem;
     position: relative;
 }
 
