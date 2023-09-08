@@ -32,7 +32,7 @@ div[class*="stTextInput"] label p {
     -webkit-font-smoothing: auto;
     color: rgb(49, 51, 63);
     box-sizing: border-box;
-    width: 500px;
+    width: 400px;
     padding: 3rem 0rem 10rem;
     max-width: 700px;
     position: relative;
@@ -64,11 +64,6 @@ div[class*="css-5rimss e1nzilvr5"] {
 
 div[class*="css-1k67eer e1f1d6gn1"] {
     height: 40px;
-}
-
-div[class*="css-1k67eer e1f1d6gn1] {
-    width: calc(5%-1rem);
-    flex: 1 1 calc(4%-1rem) !important;
 }
 
 </style>
