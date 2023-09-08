@@ -68,7 +68,7 @@ div[class*="css-1k67eer e1f1d6gn1"] {
 
 div[class*="css-1k67eer"] {
     width: 5%;
-    flex: none;
+    flex: 1 1 5%;
 }
 
 </style>
