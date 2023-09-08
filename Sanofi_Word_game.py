@@ -12,12 +12,6 @@ div[class*="stTextInput"] label p {
 
 screen_width = st.width
 
-[data-testid="column"] {
-    width: calc(screen_width-1rem) !important;
-    flex: 1 1 calc(screen_width-1rem) !important;
-    min-width: calc(screen_width-1rem) !important;
-}
-
 [data-testid="stAppViewContainer"] {
     background-color: #e5e5f7;
     opacity: 0.8;
@@ -68,11 +62,6 @@ div[class*="css-5rimss e1nzilvr5"] {
 
 div[class*="css-1k67eer e1f1d6gn1"] {
     height: 40px;
-}
-
-div[class*="css-1k67eer"] {
-    width: auto;
-    flex: auto;
 }
 
 </style>
