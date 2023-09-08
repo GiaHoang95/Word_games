@@ -10,10 +10,12 @@ div[class*="stTextInput"] label p {
   color: black;
 }
 
+screen_width = st.width
+
 [data-testid="column"] {
-    width: calc((100/16)%-1rem) !important;
-    flex: 1 1 calc((100/16)%-1rem) !important;
-    min-width: calc((100/16)%-1rem) !important;
+    width: calc(screen_width-1rem) !important;
+    flex: 1 1 calc(screen_width-1rem) !important;
+    min-width: calc(screen_width-1rem) !important;
 }
 
 [data-testid="stAppViewContainer"] {
