@@ -67,18 +67,6 @@ div[class*="css-1cwt8z2 e1f1d6gn1"] {
     min-width: auto;
 }
 
-div[class*="css-1f97al1 e1f1d6gn1"] {
-    min-width: auto;
-}
-
-div[class*="css-m9dd1f e1f1d6gn1"] {
-    min-width: auto;
-}
-
-div[class*="css-14epd60 e1f1d6gn1"] {
-    min-width: auto;
-}
-
 </style>
 """
 
