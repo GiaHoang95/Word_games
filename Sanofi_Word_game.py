@@ -62,13 +62,21 @@ div[class*="css-5rimss e1nzilvr5"] {
     gap: 1px;
 }
 
-div[class*="css-1k67eer e1f1d6gn1"] {
+div[class*="css-1cwt8z2 e1f1d6gn1"] {
     height: 40px;
+    min-width: auto;
 }
 
-div[class*="css-1k67eer"] {
-    width: auto;
-    flex: auto;
+div[class*="css-1f97al1 e1f1d6gn1"] {
+    min-width: auto;
+}
+
+div[class*="css-m9dd1f e1f1d6gn1"] {
+    min-width: auto;
+}
+
+div[class*="css-14epd60 e1f1d6gn1"] {
+    min-width: auto;
 }
 
 </style>
@@ -98,7 +106,7 @@ def head_up(url):
     st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:black;font-weight:bold;font-size:1rem;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def ex(ans, x):
-    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14, col15, col16 = st.columns(16)
+    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14, col15 = st.columns(15)
 
     if x == 0:
         with col1:
