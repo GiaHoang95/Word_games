@@ -601,33 +601,33 @@ col6a, col6b, col6c, col6d, col6e = st.columns([0.05, 5, 0.1, 5, 0.05])
 col7a, col7b, col7c, col7d, col7e = st.columns([0.05, 5, 0.1, 5, 0.05])
 
 with col1b:
-    ans1 = st.text_input('1.Kiến nào không bao giờ ngủ?')
+    ans1 = st.text_input('1\. Kiến nào không bao giờ ngủ?')
 with col1d:
-    ans2 = st.text_input('2.Chuỗi chương trình giáo dục cho bệnh nhân rất thành công mà SNF phối hợp thực hiện cùng BV ĐHYD TP.HCM?')
+    ans2 = st.text_input('2\. Chuỗi chương trình giáo dục cho bệnh nhân rất thành công mà SNF phối hợp thực hiện cùng BV ĐHYD TP.HCM?')
 with col2b: 
-    ans3 = st.text_input('3.Cùng với Lovenox, đây là brand có thắng lợi lớn trong project Đàm phán giá trong năm 2023?')    
+    ans3 = st.text_input('3\. Cùng với Lovenox, đây là brand có thắng lợi lớn trong project Đàm phán giá trong năm 2023?')    
 with col2d:
-    ans4 = st.text_input('4.Con gì mà không có xương sống mà vẫn đứng được?')
+    ans4 = st.text_input('4\. Con gì mà không có xương sống mà vẫn đứng được?')
 with col3b: 
-    ans5 = st.text_input('5.Một trong 4 "Play to Win behavior" mang hàm ý chấp nhận thử thách mới?')    
+    ans5 = st.text_input('5\. Một trong 4 "Play to Win behavior" mang hàm ý chấp nhận thử thách mới?')    
 with col3d:
-    ans6 = st.text_input('6.Thức uống nào mà có chứa cả canxi và sắt?')
+    ans6 = st.text_input('6\. Thức uống nào mà có chứa cả canxi và sắt?')
 with col4b: 
-    ans7 = st.text_input('7.We are ... Sanofi')
+    ans7 = st.text_input('7\. We are ... Sanofi')
 with col4d:
-    ans8 = st.text_input('8.Hình ảnh "Dòng thác" là hình ảnh quen thuộc của brand nào của EM?')
+    ans8 = st.text_input('8\. Hình ảnh "Dòng thác" là hình ảnh quen thuộc của brand nào của EM?')
 with col5b:
-    ans9 = st.text_input('9.Resort tổ chức chương trình BU meeting của Essential Medicines tháng 10.23?')
+    ans9 = st.text_input('9\. Resort tổ chức chương trình BU meeting của Essential Medicines tháng 10.23?')
 with col5d: 
-    ans10 = st.text_input('10.Con trai có gì quý nhất?')    
+    ans10 = st.text_input('10\. Con trai có gì quý nhất?')    
 with col6b:
-    ans11 = st.text_input('11.Đồng gì mà đa số ai cũng thích?')
+    ans11 = st.text_input('11\. Đồng gì mà đa số ai cũng thích?')
 with col6d: 
-    ans12 = st.text_input('12.Trong chanh chứa chủ yếu Acid nào?')    
+    ans12 = st.text_input('12\. Trong chanh chứa chủ yếu Acid nào?')    
 with col7b:
-    ans13 = st.text_input('13.Trong truyện cổ tích Lọ Lem, con vật nào được biến thành ngựa kéo cỗ xe đưa Lọ Lem đến dự tiệc?')
+    ans13 = st.text_input('13\. Trong truyện cổ tích Lọ Lem, con vật nào được biến thành ngựa kéo cỗ xe đưa Lọ Lem đến dự tiệc?')
 with col7d: 
-    ans14 = st.text_input('14.Bông gì không mọc từ cây?')    
+    ans14 = st.text_input('14\. Bông gì không mọc từ cây?')    
 
 ex('', 0)
 
