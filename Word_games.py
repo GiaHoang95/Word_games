@@ -589,7 +589,7 @@ ex('', 0)
 # col7a, col7b, col7c, col7d, col7e = st.columns([0.05, 5, 0.1, 5, 0.05])
 
 
-ans1 = st.text_input('1.', 'Kiến nào không bao giờ ngủ?')
+ans1 = st.text_input('1. 1. Kiến nào không bao giờ ngủ?')
 
 ans2 = st.text_input('2.Chuỗi chương trình giáo dục cho bệnh nhân rất thành công mà SNF phối hợp thực hiện cùng BV ĐHYD TP.HCM?')
  
