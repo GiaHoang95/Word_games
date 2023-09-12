@@ -4,7 +4,7 @@ tabs_font_css = """
 <style>
 
 div[class*="stTextInput"] label p {
-  font-size: 7.2px;
+  font-size: 8px;
   color: black;
 }
 
