@@ -9,9 +9,9 @@ div[class*="stTextInput"] label p {
 }
 
 [data-testid="column"] {
-    width: calc((100/16)%-1rem) !important;
-    flex: 1 1 calc((100/16)%-1rem) !important;
-    min-width: calc((100/16)%-1rem) !important;
+    width: calc((100/15)%-1rem) !important;
+    flex: 1 1 calc((100/15)%-1rem) !important;
+    min-width: calc((100/15)%-1rem) !important;
 }
 
 [data-testid="stAppViewContainer"] {
@@ -32,8 +32,8 @@ div[class*="stTextInput"] label p {
     -webkit-font-smoothing: auto;
     color: rgb(49, 51, 63);
     box-sizing: border-box;
-    width: 500px;
-    padding: 3rem 1rem 10rem;
+    width: 100%;
+    padding: 3rem 0rem 10rem;
     max-width: 1000px;
     position: relative;
 }
@@ -131,9 +131,7 @@ def ex(ans, x):
             header_space('')
         with col15:
             header_space('')
-        with col16:
-            header_space('')
-          
+        
     if x == 1:
         with col1:
             header_stt('1')
@@ -150,9 +148,9 @@ def ex(ans, x):
         with col7:
             header(ans.upper()[2])
         with col8:
-            headerkm(ans.upper()[3])
+            header(ans.upper()[3])
         with col9:
-            header(ans.upper()[4])
+            headerkm(ans.upper()[4])
         with col10:
             header(ans.upper()[5])
         with col11:
@@ -160,48 +158,44 @@ def ex(ans, x):
         with col12:
             header(ans.upper()[7])
         with col13:
-            header(ans.upper()[8])
+            header0('')
         with col14:
-            header(ans.upper()[9])
+            header0('')
         with col15:
-            header(ans.upper()[10])
-        with col16:
-            header(ans.upper()[11])
-
+            header0('')
+        
     elif x == 2:
         with col1:
             header_stt('2')
         with col2:
             header0('')
         with col3:
-            header(ans.upper()[0])
+            header0('')
         with col4:
-            header(ans.upper()[1])
+            header(ans.upper()[0])
         with col5:
-            header(ans.upper()[2])
+            header(ans.upper()[1])
         with col6:
-            header(ans.upper()[3])
+            header(ans.upper()[2])
         with col7:
-            header(ans.upper()[4])
+            header(ans.upper()[3])
         with col8:
-            headerkm(ans.upper()[5])
+            header(ans.upper()[4])
         with col9:
-            header(ans.upper()[6])
+            headerkm(ans.upper()[5])
         with col10:
-            header(ans.upper()[7])
+            header(ans.upper()[6])
         with col11:
-            header(ans.upper()[8])
+            header(ans.upper()[7])
         with col12:
-            header(ans.upper()[9])
+            header(ans.upper()[8])
         with col13:
-            header(ans.upper()[10])
+            header(ans.upper()[9])
         with col14:
-            header(ans.upper()[11])
+            header(ans.upper()[10])
         with col15:
-            header0('')
-        with col16:
-            header0('')
-
+            header(ans.upper()[11])
+        
     elif x == 3:
         with col1:
             header_stt('3')
@@ -214,28 +208,26 @@ def ex(ans, x):
         with col5:
             header0('')
         with col6:
-            header(ans.upper()[0])
-        with col7:
-            header(ans.upper()[1])
-        with col8:
-            headerkm(ans.upper()[2])
-        with col9:
-            header(ans.upper()[3])
-        with col10:
-            header(ans.upper()[4])
-        with col11:
-            header(ans.upper()[5])
-        with col12:
             header0('')
+        with col7:
+            header(ans.upper()[0])
+        with col8:
+            header(ans.upper()[1])
+        with col9:
+            headerkm(ans.upper()[2])
+        with col10:
+            header(ans.upper()[3])
+        with col11:
+            header(ans.upper()[4])
+        with col12:
+            header(ans.upper()[5])
         with col13:
             header0('')
         with col14:
             header0('')
         with col15:
             header0('')
-        with col16:
-            header0('')
-
+        
     elif x == 4:
         with col1:
             header_stt('4')
@@ -244,32 +236,30 @@ def ex(ans, x):
         with col3:
             header0('')
         with col4:
-            header(ans.upper()[0])
+            header0('')
         with col5:
-            header(ans.upper()[1])
+            header0('')
         with col6:
-            header(ans.upper()[2])
+            header0('')
         with col7:
-            header(ans.upper()[3])
+            header(ans.upper()[0])
         with col8:
-            headerkm(ans.upper()[4])
+            header(ans.upper()[1])
         with col9:
-            header(ans.upper()[5])
+            headerkm(ans.upper()[2])
         with col10:
-            header(ans.upper()[6])
+            header(ans.upper()[3])
         with col11:
-            header0('')
+            header(ans.upper()[4])
         with col12:
-            header0('')
+            header(ans.upper()[5])
         with col13:
             header0('')
         with col14:
             header0('')
         with col15:
             header0('')
-        with col16:
-            header0('')
-
+        
     elif x == 5:
         with col1:
             header_stt('5')
@@ -286,24 +276,22 @@ def ex(ans, x):
         with col7:
             header0('')
         with col8:
-            headerkm(ans.upper()[0])
+            header0('')
         with col9:
-            header0('')
+            headerkm(ans.upper()[0])
         with col10:
-            header0('')
+            header(ans.upper()[1])
         with col11:
-            header0('')
+            header(ans.upper()[2])
         with col12:
-            header0('')
+            header(ans.upper()[3])
         with col13:
-            header0('')
+            header(ans.upper()[4])
         with col14:
-            header0('')
+            header(ans.upper()[5])
         with col15:
-            header0('')
-        with col16:
-            header0('')
-
+            header(ans.upper()[6])
+        
     elif x == 6:
         with col1:
             header_stt('6')
@@ -318,15 +306,15 @@ def ex(ans, x):
         with col6:
             header0('')
         with col7:
-            header0('')
+            header(ans.upper()[0])
         with col8:
-            headerkm(ans.upper()[0])
-        with col9:
             header(ans.upper()[1])
+        with col9:
+            headerkm(ans.upper()[2])
         with col10:
-            header(ans.upper()[2])
-        with col11:
             header(ans.upper()[3])
+        with col11:
+            header0('')
         with col12:
             header0('')
         with col13:
@@ -335,9 +323,7 @@ def ex(ans, x):
             header0('')
         with col15:
             header0('')
-        with col16:
-            header0('')
-
+        
     elif x == 7:
         with col1:
             header_stt('7')
@@ -354,13 +340,13 @@ def ex(ans, x):
         with col7:
             header0('')
         with col8:
-            headerkm(ans.upper()[0])
-        with col9:
-            header(ans.upper()[1])
-        with col10:
-            header(ans.upper()[2])
-        with col11:
             header0('')
+        with col9:
+            headerkm(ans.upper()[0])
+        with col10:
+            header(ans.upper()[1])
+        with col11:
+            header(ans.upper()[2])
         with col12:
             header0('')
         with col13:
@@ -369,9 +355,7 @@ def ex(ans, x):
             header0('')
         with col15:
             header0('')
-        with col16:
-            header0('')
-
+        
     elif x == 8:
         with col1:
             header_stt('8')
@@ -382,19 +366,19 @@ def ex(ans, x):
         with col4:
             header0('')
         with col5:
-            header(ans.upper()[0])
-        with col6:
-            header(ans.upper()[1])
-        with col7:
-            header(ans.upper()[2])
-        with col8:
-            headerkm(ans.upper()[3])
-        with col9:
-            header(ans.upper()[4])
-        with col10:
-            header(ans.upper()[5])
-        with col11:
             header0('')
+        with col6:
+            header(ans.upper()[0])
+        with col7:
+            header(ans.upper()[1])
+        with col8:
+            header(ans.upper()[2])
+        with col9:
+            headerkm(ans.upper()[3])
+        with col10:
+            header(ans.upper()[4])
+        with col11:
+            header(ans.upper()[5])
         with col12:
             header0('')
         with col13:
@@ -403,77 +387,71 @@ def ex(ans, x):
             header0('')
         with col15:
             header0('')
-        with col16:
-            header0('')
-
+        
     elif x == 9:
         with col1:
             header_stt('9')
         with col2:
-            header0('')
+            header(ans.upper()[0])
         with col3:
-            header0('')
-        with col4:
-            header0('')
-        with col5:
-            header0('')
-        with col6:
-            header0('')
-        with col7:
-            header0('')
-        with col8:
-            headerkm(ans.upper()[0])
-        with col9:
             header(ans.upper()[1])
-        with col10:
+        with col4:
             header(ans.upper()[2])
-        with col11:
+        with col5:
             header(ans.upper()[3])
-        with col12:
+        with col6:
             header(ans.upper()[4])
-        with col13:
+        with col7:
             header(ans.upper()[5])
-        with col14:
+        with col8:
             header(ans.upper()[6])
-        with col15:
-            header(ans.upper()[7])
-        with col16:
+        with col9:
+            headerkm(ans.upper()[7])
+        with col10:
+            header(ans.upper()[8])
+        with col11:
+            header(ans.upper()[9])
+        with col12:
+            header(ans.upper()[10])
+        with col13:
+            header(ans.upper()[11])
+        with col14:
             header0('')
-
+        with col15:
+            header0('')
+        
     elif x == 10:
         with col1:
             header_stt('10')
         with col2:
             header0('')
         with col3:
-            header0('')
-        with col4:
             header(ans.upper()[0])
-        with col5:
+        with col4:
             header(ans.upper()[1])
-        with col6:
+        with col5:
             header(ans.upper()[2])
-        with col7:
+        with col6:
             header(ans.upper()[3])
+        with col7:
+            header(ans.upper()[4])
         with col8:
-            headerkm(ans.upper()[4])
-        with col9:
             header(ans.upper()[5])
+        with col9:
+            headerkm(ans.upper()[6])
         with col10:
-            header(ans.upper()[6])
-        with col11:
             header(ans.upper()[7])
+        with col11:
+            header0('')
         with col12:
-            header(ans.upper()[8])
+            header0('')
         with col13:
-            header(ans.upper()[9])
+            header0('')
         with col14:
             header0('')
         with col15:
             header0('')
-        with col16:
-            header0('')
-
+        
     elif x == 11:
         with col1:
             header_stt('11')
@@ -482,32 +460,30 @@ def ex(ans, x):
         with col3:
             header0('')
         with col4:
-            header(ans.upper()[0])
+            header0('')
         with col5:
-            header(ans.upper()[1])
+            header(ans.upper()[0])
         with col6:
-            header(ans.upper()[2])
+            header(ans.upper()[1])
         with col7:
-            header(ans.upper()[3])
+            header(ans.upper()[2])
         with col8:
-            headerkm(ans.upper()[4])
+            header(ans.upper()[3])
         with col9:
-            header(ans.upper()[5])
+            headerkm(ans.upper()[4])
         with col10:
-            header(ans.upper()[6])
+            header(ans.upper()[5])
         with col11:
-            header0('')
+            header(ans.upper()[6])
         with col12:
-            header0('')
+            header(ans.upper()[7])
         with col13:
             header0('')
         with col14:
             header0('')
         with col15:
             header0('')
-        with col16:
-            header0('')
-
+        
     elif x == 12:
         with col1:
             header_stt('12')
@@ -524,24 +500,22 @@ def ex(ans, x):
         with col7:
             header(ans.upper()[2])
         with col8:
-            headerkm(ans.upper()[3])
+            header(ans.upper()[3])
         with col9:
-            header(ans.upper()[4])
+            headerkm(ans.upper()[4])
         with col10:
             header(ans.upper()[5])
         with col11:
-            header(ans.upper()[6])
+            header0('')
         with col12:
-            header(ans.upper()[7])
+            header0('')
         with col13:
             header0('')
         with col14:
             header0('')
         with col15:
             header0('')
-        with col16:
-            header0('')
-
+        
     elif x == 13:
         with col1:
             header_stt('13')
@@ -558,79 +532,99 @@ def ex(ans, x):
         with col7:
             header(ans.upper()[1])
         with col8:
-            headerkm(ans.upper()[2])
+            header(ans.upper()[2])
         with col9:
-            header(ans.upper()[3])
+            headerkm(ans.upper()[3])
         with col10:
             header(ans.upper()[4])
         with col11:
-            header(ans.upper()[5])
+            header0('')
         with col12:
-            header(ans.upper()[6])
+            header0('')
         with col13:
             header0('')
         with col14:
             header0('')
         with col15:
             header0('')
-        with col16:
-            header0('')
-
+        
     elif x == 14:
         with col1:
             header_stt('14')
         with col2:
-            header(ans.upper()[0])
+            header0('')
         with col3:
-            header(ans.upper()[1])
+            header0('')
         with col4:
-            header(ans.upper()[2])
+            header0('')
         with col5:
-            header(ans.upper()[3])
+            header0('')
         with col6:
-            header(ans.upper()[4])
+            header0('')
         with col7:
-            header(ans.upper()[5])
+            header(ans.upper()[0])
         with col8:
-            headerkm(ans.upper()[6])
+            header(ans.upper()[1])
         with col9:
-            header(ans.upper()[7])
+            headerkm(ans.upper()[2])
         with col10:
-            header0('')
+            header(ans.upper()[3])
         with col11:
-            header0('')
+            header(ans.upper()[4])
         with col12:
-            header0('')
+            header(ans.upper()[5])
         with col13:
-            header0('')
+            header(ans.upper()[6])
         with col14:
             header0('')
         with col15:
             header0('')
-        with col16:
-            header0('')
-
+        
 head('Essential Medicines')
 
 ex('', 0)
 
-ans1 = ('            ')
-ans2 = ('            ')          
-ans3 = ('            ')          
-ans4 = ('            ')          
-ans5 = ('            ')          
-ans6 = ('            ')          
-ans7 = ('            ')          
-ans8 = ('            ')          
-ans9 = ('            ')          
-ans10 = ('            ')          
-ans11 = ('            ')          
-ans12 = ('            ')
-ans13 = ('            ')
-ans14 = ('            ')
+col1a, col1b, col1c, col1d, col1e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col2a, col2b, col2c, col2d, col2e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col3a, col3b, col3c, col3d, col3e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col4a, col4b, col4c, col4d, col4e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col5a, col5b, col5c, col5d, col5e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col6a, col6b, col6c, col6d, col6e = st.columns([0.05, 5, 0.1, 5, 0.05])
+col7a, col7b, col7c, col7d, col7e = st.columns([0.05, 5, 0.1, 5, 0.05])
 
-if len(ans1) != 12:
-    ex('            ', 1)
+with col1b:
+    ans1 = st.text_input('1.Kiến nào không bao giờ ngủ?')
+with col1d:
+    ans2 = st.text_input('2.Chuỗi chương trình giáo dục cho bệnh nhân rất thành công mà SNF phối hợp thực hiện cùng BV DHYD TP.HCM?')
+with col2b: 
+    ans3 = st.text_input('3.Cùng với Lovenox, đây là brand có thắng lợi lớn trong project Đàm phán giá trong năm 2023?')    
+with col2d:
+    ans4 = st.text_input('4.Con gì mà không có xương sống mà vẫn đứng được?')
+with col3b: 
+    ans5 = st.text_input('5.Một trong 4 "Play to Win behavior" mang hàm ý chấp nhận thử thách mới?')    
+with col3d:
+    ans6 = st.text_input('6.Thức uống nào mà có chứa cả canxi và sắt?')
+with col4b: 
+    ans7 = st.text_input('7.We are ... Sanofi')
+with col4d:
+    ans8 = st.text_input('8.Hình ảnh "Dòng thác" là hình ảnh quen thuộc của brand nào của EM?')
+with col5b:
+    ans9 = st.text_input('9.Resort tổ chức chương trình BU meeting của Essential Medicines tháng 10.23?')
+with col5d: 
+    ans10 = st.text_input('10.Con trai có gì quý nhất?')    
+with col6b:
+    ans11 = st.text_input('11.Đồng gì mà đa số ai cũng thích?')
+with col6d: 
+    ans12 = st.text_input('12.Trong chanh chứa chủ yếu Acid nào?')    
+with col7b:
+    ans13 = st.text_input('13.Trong truyện cổ tích Lọ Lem, con vật nào được biến thành ngựa kéo cỗ xe đưa Lọ Lem đến dự tiệc?')
+with col7d: 
+    ans14 = st.text_input('14.Bông gì không mọc từ cây?')    
+
+ex('', 0)
+
+if len(ans1) != 8:
+    ex('        ', 1)
 else:
     ex(ans1, 1)
 
@@ -644,13 +638,13 @@ if len(ans3) != 6:
 else:
     ex(ans3, 3)
 
-if len(ans4) != 7:
-    ex('       ', 4)
+if len(ans4) != 6:
+    ex('      ', 4)
 else:
     ex(ans4, 4)
 
-if len(ans5) != 1:
-    ex(' ', 5)
+if len(ans5) != 7:
+    ex('       ', 5)
 else:
     ex(ans5, 5)
 
@@ -665,37 +659,37 @@ else:
     ex(ans7, 7)
 
 if len(ans8) != 6:
-    ex('       ', 8)
+    ex('      ', 8)
 else:
     ex(ans8, 8)
 
-if len(ans9) != 8:
-    ex('        ', 9)
+if len(ans9) != 12:
+    ex('            ', 9)
 else:
     ex(ans9, 9)
 
-if len(ans10) != 10:
-    ex('          ', 10)
+if len(ans10) != 8:
+    ex('        ', 10)
 else:
     ex(ans10, 10)
 
-if len(ans11) != 7:
-    ex('       ', 11)
+if len(ans11) != 8:
+    ex('        ', 11)
 else:
     ex(ans11, 11)
 
-if len(ans12) != 8:
-    ex('        ', 12)
+if len(ans12) != 6:
+    ex('      ', 12)
 else:
     ex(ans12, 12)
 
-if len(ans13) != 7:
-    ex('       ', 13)
+if len(ans13) != 5:
+    ex('     ', 13)
 else:
     ex(ans13, 13)
 
-if len(ans14) != 8:
-    ex('        ', 14)
+if len(ans14) != 7:
+    ex('       ', 14)
 else:
     ex(ans14, 14)
 
@@ -714,4 +708,3 @@ st.markdown(submit_form, unsafe_allow_html=True)
 ex('', 0)
 
 head_up('Lưu ý: Upload ảnh chụp màn hình phần ô chữ bên trên')
-
