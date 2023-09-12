@@ -36,7 +36,6 @@ div[class*="stTextInput"] label p {
     padding: 3rem 1rem 10rem;
     max-width: 1000px;
     position: relative;
-    min-width: 1000px;
 }
 
 div[class*="css-5rimss e1nzilvr5"] {
