@@ -38,7 +38,7 @@ div[class*="stTextInput"] label p {
     position: relative;
 }
 
-div[class*="css-5rimss e1nzilvr5"] {
+div[class*="st-emotion-cache-5rimss e1nzilvr5"] {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
