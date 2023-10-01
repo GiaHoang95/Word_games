@@ -108,7 +108,7 @@ def headerkm(url):
     st.markdown(f'<div style="width:100%;height:40px;display:flex;justify-content:center;align-items:center;background-color:#7A01E6;color:#ffffff;border: 0px solid #ffffff;font-size:20px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
 
 def head(url):
-    st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:#7A01E6;font-weight:bold;font-size:40px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:#7A01E6;font-weight:bold;font-size:60px;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
   
 def head_up(url):
     st.markdown(f'<div style="display:flex;justify-content:center;align-items:center;background-color:inherit;color:black;font-weight:bold;font-size:1rem;border-radius:0%;">{url}</div>', unsafe_allow_html=True)
