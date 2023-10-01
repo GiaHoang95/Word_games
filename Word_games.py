@@ -62,7 +62,7 @@ div[class*="st-emotion-cache-5rimss e1nzilvr5"] {
     gap: 1px;
 }
 
-div[class*="css-1cwt8z2 e1f1d6gn1"] {
+div[class*="st-emotion-cache-1cwt8z2 e1f1d6gn1"] {
     height: 40px;
     min-width: auto;
 }
