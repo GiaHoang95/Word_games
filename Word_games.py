@@ -3,6 +3,11 @@ import streamlit as st
 tabs_font_css = """
 <style>
 
+import streamlit as st
+
+tabs_font_css = """
+<style>
+
 div[class*="stTextInput"] label p {
   font-size: 1rem;
   color: black;
@@ -591,15 +596,6 @@ def ex(ans, x):
 head('Essential Medicines')
 
 ex('', 0)
-
-# col1a, col1b, col1c, col1d, col1e = st.columns([0.05, 5, 0.1, 5, 0.05])
-# col2a, col2b, col2c, col2d, col2e = st.columns([0.05, 5, 0.1, 5, 0.05])
-# col3a, col3b, col3c, col3d, col3e = st.columns([0.05, 5, 0.1, 5, 0.05])
-# col4a, col4b, col4c, col4d, col4e = st.columns([0.05, 5, 0.1, 5, 0.05])
-# col5a, col5b, col5c, col5d, col5e = st.columns([0.05, 5, 0.1, 5, 0.05])
-# col6a, col6b, col6c, col6d, col6e = st.columns([0.05, 5, 0.1, 5, 0.05])
-# col7a, col7b, col7c, col7d, col7e = st.columns([0.05, 5, 0.1, 5, 0.05])
-
 
 ans1 = st.text_input('1\. Kiến nào không bao giờ ngủ?')
 
