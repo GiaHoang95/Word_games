@@ -80,14 +80,6 @@ div[class*="st-emotion-cache-ytkq5y e1f1d6gn2"] {
     min-width: auto;
 }
 
-div[class*="st-emotion-cache-12w0qpk e1f1d6gn2"] {
-    min-width: auto;
-}
-
-div[class*="st-emotion-cache-keje6w e1f1d6gn2"] {
-    min-width: auto;
-}
-
 div[class*="st-emotion-cache-m9dd1f e1f1d6gn2"] {
     min-width: auto;
 }
@@ -605,10 +597,13 @@ def ex(ans, x):
         with col15:
             header0('')
 
-col4, col5, col6 = st.columns([1, 2, 1])
+col4, col5, col6, col7 = st.columns([1, 2, 2, 1])
 
 with col5:
-  head('Essential Medicines')
+  head('ESSENTIAL')
+  
+with col6:
+  head('MEDICINES')
 
 ex('', 0)
 
