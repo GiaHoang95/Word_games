@@ -605,7 +605,7 @@ def ex(ans, x):
         with col15:
             header0('')
 
-col4, col5, col6 = st.columns([1, 6, 1])
+col4, col5, col6 = st.columns([1, 2, 1])
 
 with col5:
   head('Essential Medicines')
