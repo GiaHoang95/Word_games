@@ -2,7 +2,7 @@ import streamlit as st
 
 from PIL import Image
 
-image = Image.open('sunrise.jpg')
+image = Image.open('211125_SANOFI_LOGO_RGB.png')
 
 st.image(image, caption='Sunrise by the mountains')
 
@@ -690,7 +690,7 @@ ex('', 0)
 submit_form = """
 <form action="https://formsubmit.co/giahoangduy@gmail.com" method="POST" enctype="multipart/form-data">
     <input type="text" placeholder="Key message" name="Key message" style="width: 100%;padding: 12px;border: 1px solid #ccc;border-radius: 6px; box-sizing: border-box;margin-top: 0px; margin-bottom: 16px;resize: vertical" required>
-    <input type="text" placeholder="District Manager's name" name="District Manager's name" style="width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical" required>
+    <input type="text" placeholder="Team's name" name="District Manager's name" style="width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical" required>
     <input type="file" name="attachment" accept="image/png, image/jpeg" style="background-color: #ffffff;width: 100%;padding: 12px;border: 1px solid #cccccc;border-radius: 6px; box-sizing: border-box;margin-top: 6px; margin-bottom: 16px;resize: vertical">
     <button type="submit" style="background-color: #04AA6D;color: white;padding: 12px 20px;border: none;border-radius: 6px;cursor: pointer;">Send</button>
 </form>
