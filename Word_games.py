@@ -3,11 +3,6 @@ import streamlit as st
 tabs_font_css = """
 <style>
 
-import streamlit as st
-
-tabs_font_css = """
-<style>
-
 div[class*="stTextInput"] label p {
   font-size: 1rem;
   color: black;
