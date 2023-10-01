@@ -597,12 +597,13 @@ def ex(ans, x):
         with col15:
             header0('')
 
-col4, col5, col6, col7 = st.columns([1, 1, 1, 1])
+col4, col5, col6 = st.columns([1, 1, 1])
+col7, col8, col9 = st.columns([1, 1, 1])
 
 with col5:
   head('ESSENTIAL')
   
-with col6:
+with col8:
   head('MEDICINES')
 
 ex('', 0)
