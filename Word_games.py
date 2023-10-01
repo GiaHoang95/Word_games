@@ -80,11 +80,11 @@ div[class*="st-emotion-cache-ytkq5y e1f1d6gn2"] {
     min-width: auto;
 }
 
-div[class*="st-emotion-cache-1dxb92l e1f1d6gn2"] {
+div[class*="st-emotion-cache-12w0qpk e1f1d6gn2"] {
     min-width: auto;
 }
 
-div[class*="st-emotion-cache-ml2xh6 e1f1d6gn2"] {
+div[class*="st-emotion-cache-keje6w e1f1d6gn2"] {
     min-width: auto;
 }
 
