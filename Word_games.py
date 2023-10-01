@@ -4,7 +4,7 @@ from PIL import Image
 
 image = Image.open('211125_SANOFI_LOGO_RGB.png')
 
-st.image(image, caption='Sunrise by the mountains')
+st.image(image)
 
 tabs_font_css = """
 <style>
