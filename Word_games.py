@@ -4,7 +4,9 @@ from PIL import Image
 
 image = Image.open('211125_SANOFI_LOGO_RGB.png')
 
-st.image(image)
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+  st.image(image)
 
 tabs_font_css = """
 <style>
