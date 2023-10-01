@@ -598,6 +598,7 @@ def ex(ans, x):
             header0('')
 
 col4, col5, col6 = st.columns([1, 1, 1])
+
 col7, col8, col9 = st.columns([1, 1, 1])
 
 with col5:
