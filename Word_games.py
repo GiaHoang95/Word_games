@@ -76,6 +76,14 @@ div[class*="st-emotion-cache-1cwt8z2 e1f1d6gn2"] {
     min-width: auto;
 }
 
+div[class*="st-emotion-cache-ytkq5y e1f1d6gn2"] {
+    min-width: auto;
+}
+
+div[class*="st-emotion-cache-1sdqqxz e1f1d6gn2"] {
+    min-width: auto;
+}
+
 div[class*="st-emotion-cache-1f97al1 e1f1d6gn2"] {
     min-width: auto;
 }
