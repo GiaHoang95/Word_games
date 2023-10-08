@@ -80,10 +80,6 @@ div[class*="st-emotion-cache-1r6slb0 e1f1d6gn1"] {
     min-width: auto;
 }
 
-div[class*="st-emotion-cache-14epd60 e1f1d6gn1"] {
-    min-width: auto;
-}
-
 </style>
 """
 
