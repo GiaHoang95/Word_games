@@ -433,7 +433,7 @@ def ex(ans, x):
         with col13:
             header(ans.upper()[11])
         with col14:
-            header0('')
+            header(ans.upper()[12])
         with col15:
             header0('')
         
@@ -666,8 +666,8 @@ if len(ans8) != 6:
 else:
     ex(ans8, 8)
 
-if len(ans9) != 12:
-    ex('            ', 9)
+if len(ans9) != 13:
+    ex('             ', 9)
 else:
     ex(ans9, 9)
 
