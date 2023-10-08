@@ -71,20 +71,20 @@ div[class*="st-emotion-cache-5rimss e1nzilvr5"] {
     gap: 1px;
 }
 
-div[class*="st-emotion-cache-1cwt8z2 e1f1d6gn2"] {
+div[class*="st-emotion-cache-1cwt8z2 e1f1d6gn1"] {
     height: 40px;
     min-width: auto;
 }
 
-div[class*="st-emotion-cache-ytkq5y e1f1d6gn2"] {
+div[class*="st-emotion-cache-ytkq5y e1f1d6gn1"] {
     min-width: auto;
 }
 
-div[class*="st-emotion-cache-m9dd1f e1f1d6gn2"] {
+div[class*="st-emotion-cache-m9dd1f e1f1d6gn1"] {
     min-width: auto;
 }
 
-div[class*="st-emotion-cache-14epd60 e1f1d6gn2"] {
+div[class*="st-emotion-cache-14epd60 e1f1d6gn1"] {
     min-width: auto;
 }
 
