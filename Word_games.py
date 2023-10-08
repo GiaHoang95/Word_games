@@ -76,7 +76,7 @@ div[class*="st-emotion-cache-1cwt8z2 e1f1d6gn1"] {
     min-width: auto;
 }
 
-div[class*="st-emotion-cache-ytkq5y e1f1d6gn1"] {
+div[class*="st-emotion-cache-1r6slb0 e1f1d6gn1"] {
     min-width: auto;
 }
 
